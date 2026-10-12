@@ -33,7 +33,7 @@ function pct(v) {
   return { cls, txt };
 }
 function cell(v, cls) {
-  return `<td style="text-align:right;${cls ? ' class="' + cls + '"' : ''}>${v}</td>`;
+  return `<td style="text-align:right;"${cls ? ' class="' + cls + '"' : ''}>${v}</td>`;
 }
 function replaceBetween(html, startMarker, open, close, replacement) {
   const s = html.indexOf(startMarker);
