@@ -45,7 +45,7 @@ var PT_EN = {
  "Falar Connosco →": "Talk to Us →",
  "Páginas de Análise": "Analysis Pages",
  "€ Mínimo Sugerido": "€ Minimum Suggested",
- "Atualizações/Dia": "Updates/Day",
+ "Atualizações/Ano": "Updates/Year",
  "📊 Mercados": "📊 Markets",
  "Explore por Categoria": "Explore by Category",
  "Clique em qualquer secção para análises detalhadas atualizadas automaticamente todos os domingos às 21h UTC": "Click any section for detailed analysis updated automatically every Sunday at 9 PM UTC",
