@@ -1,5 +1,5 @@
 // update_data.js — Atualiza todas as secções com dados reais
-// Executado pelos GitHub Actions todos os domingos
+// Executado pelos GitHub Actions todos os domingos (21h UTC)
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
@@ -93,32 +93,188 @@ async function updateFearGreed() {
   console.log(`✅ Fear & Greed: ${label} (${v})`);
 }
 
-// ---------- ACCOES / ETFs (Yahoo Finance) ----------
-const YAHOO = ['^GSPC', '^IXIC', '^STOXX50E', '^PSI', 'SPY', 'VOO', 'QQQ', 'AAPL', 'MSFT', 'NVDA'];
-async function updateStocks() {
-  for (const sym of YAHOO) {
-    const d = await get(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=5d`);
-    const meta = d?.chart?.result?.[0]?.meta;
-    if (!meta) { console.warn('Yahoo falhou para ' + sym); continue; }
-    const price = meta.regularMarketPrice, prev = meta.chartPreviousClose;
-    const chg = ((price - prev) / prev * 100);
-    console.log(`  ${sym}: ${price} (${chg >= 0 ? '+' : ''}${chg.toFixed(2)}%)`);
+// ---------- ÍNDICES, AÇÕES E ETFs (Yahoo Finance) ----------
+const INDICES = [
+  { sym: 'PSI20.LS',  key: 'psi20', nome: 'PSI20' },
+  { sym: '^IBEX',     key: 'ibex',  nome: 'IBEX35' },
+  { sym: '^GSPC',     key: 'gspc',  nome: 'S&P 500' },
+  { sym: '^IXIC',     key: 'ixic',  nome: 'Nasdaq' },
+  { sym: '^STOXX50E', key: 'stoxx', nome: 'Euro Stoxx 50' },
+];
+const STOCKS = [
+  { sym: 'NVDA', nome: 'NVIDIA (NVDA)',        sub: 'Semicondutores AI' },
+  { sym: 'AMD',  nome: 'AMD (AMD)',            sub: 'Semicondutores' },
+  { sym: 'META', nome: 'Meta Platforms (META)', sub: 'Social Media + AI' },
+  { sym: 'AAPL', nome: 'Apple (AAPL)',         sub: 'Consumer Tech' },
+  { sym: 'TSLA', nome: 'Tesla (TSLA)',         sub: 'EV + Autonomy' },
+];
+const ETFS = [
+  { sym: 'VWCE.DE', nome: 'VWCE — Vanguard FTSE All-World', sub: 'Global ACWI UCITS', nota: '✅ Recomendado PT', eur: true },
+  { sym: 'IWDA.AS', nome: 'iShares Core MSCI World (IWDA)', sub: 'Developed Markets', nota: '✅ Excelente alternativa', eur: true },
+  { sym: 'EQQQ.DE', nome: 'Invesco NASDAQ 100 (EQQQ)',      sub: 'Tech Heavy',        nota: '⚡ Tech focus', eur: true },
+  { sym: 'SUSW.L',  nome: 'iShares MSCI World SRI (SUSW)',  sub: 'ESG Global',        nota: '🌱 Sustentável', eur: true },
+];
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function yahooQuote(sym) {
+  const d = await get(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=5d`);
+  const meta = d && d.chart && d.chart.result && d.chart.result[0] && d.chart.result[0].meta;
+  if (!meta || !meta.regularMarketPrice) return null;
+  const price = meta.regularMarketPrice;
+  const prev = meta.chartPreviousClose || meta.previousClose || price;
+  return { price, chg: (price - prev) / prev * 100 };
+}
+
+function indexRow(nome, flag, sub, q) {
+  if (!q) return '';
+  const c = pct(q.chg);
+  const tend = c.cls === 'positive' ? '<span style="color:var(--green);">🔺 Alta</span>' : (c.cls === 'negative' ? '<span style="color:var(--red);">↓ Baixa</span>' : '<span style="color:var(--text-muted);">→ Lateral</span>');
+  return `<tr>
+            <td><strong>${flag} ${nome}</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">${sub}</span></td>
+            <td style="text-align:right;"><strong>${Math.round(q.price).toLocaleString('en-US')}</strong></td>
+            ${cell(c.txt, c.cls)}
+            <td style="text-align:right;">—</td>
+            <td>${tend}</td>
+          </tr>`;
+}
+
+function etfRow(i, e, q) {
+  if (!q) return '';
+  const c = pct(q.chg);
+  const cur = e.eur ? '€' : '$';
+  return `<tr>
+            <td>${i}</td>
+            <td><strong>${e.nome}</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">${e.sub}</span></td>
+            <td style="text-align:right;">${cur}${q.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+            ${cell(c.txt, c.cls)}
+            <td style="text-align:right;">—</td>
+            <td style="color:var(--blue);">${e.nota}</td>
+          </tr>`;
+}
+
+function stockRow(s, q) {
+  if (!q) return '';
+  const c = pct(q.chg);
+  return `<tr>
+            <td><strong>${s.nome}</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">${s.sub}</span></td>
+            <td style="text-align:right;"><strong>$${q.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</strong></td>
+            <td style="text-align:right;">—</td>
+            ${cell(c.txt, c.cls)}
+            <td style="font-size:0.875rem;">Cotação automática de ${new Date().toISOString().slice(0, 10)}</td>
+          </tr>`;
+}
+
+async function updateMarkets(dataOut) {
+  const fp = path.join(process.cwd(), 'stocks.html');
+  let html = fs.readFileSync(fp, 'utf8');
+
+  const idx = {};
+  for (const cfg of INDICES) {
+    idx[cfg.key] = await yahooQuote(cfg.sym);
+    if (idx[cfg.key]) console.log(`  ${cfg.nome}: ${idx[cfg.key].price.toFixed(2)} (${idx[cfg.key].chg >= 0 ? '+' : ''}${idx[cfg.key].chg.toFixed(2)}%)`);
+    else console.warn(`Yahoo falhou para ${cfg.sym}`);
+    await sleep(1200);
   }
-  console.log('✅ Ações/ETFs consultados (valores de referência atualizados no JSON)');
+  const flags = { psi20: '🇵🇹', ibex: '🇪🇸', gspc: '🇺🇸', ixic: '🇺🇸', stoxx: '🇪🇺' };
+  const subs  = { psi20: 'Portugal', ibex: 'Espanha', gspc: 'EUA Large Cap', ixic: 'Nasdaq Composite', stoxx: 'Europa Blue Chip' };
+  const iRows = INDICES.map(c => indexRow(c.nome, flags[c.key], subs[c.key], idx[c.key])).filter(Boolean).join('\n          ');
+  if (iRows) html = replaceBetween(html, 'Índices Principais', '<tbody>', '</tbody>',
+    '<tbody>\n          ' + iRows + '\n        </tbody>');
+
+  const etf = {};
+  for (const cfg of ETFS) {
+    etf[cfg.sym] = await yahooQuote(cfg.sym);
+    if (etf[cfg.sym]) console.log(`  ${cfg.nome}: ${etf[cfg.sym].price.toFixed(2)}`);
+    await sleep(1200);
+  }
+  const eRows = ETFS.map((e, i) => etfRow(i + 1, e, etf[e.sym])).filter(Boolean).join('\n          ');
+  if (eRows) html = replaceBetween(html, 'Maiores ETFs Mundiais', '<tbody>', '</tbody>',
+    '<tbody>\n          ' + eRows + '\n        </tbody>');
+
+  const st = {};
+  for (const cfg of STOCKS) {
+    st[cfg.sym] = await yahooQuote(cfg.sym);
+    if (st[cfg.sym]) console.log(`  ${cfg.nome}: $${st[cfg.sym].price.toFixed(2)}`);
+    await sleep(1200);
+  }
+  const sRows = STOCKS.map(s => stockRow(s, st[s.sym])).filter(Boolean).join('\n          ');
+  if (sRows) html = replaceBetween(html, 'Principais Ações por Mercado', '<tbody>', '</tbody>',
+    '<tbody>\n          ' + sRows + '\n        </tbody>');
+
+  fs.writeFileSync(fp, html, 'utf8');
+  console.log('✅ stocks.html atualizado (índices + ETFs + ações reais Yahoo)');
+
+  dataOut['indices'] = idx;
+  dataOut['etfs'] = etf;
+  dataOut['stocks'] = st;
 }
 
 // ---------- COMMODITIES (Yahoo Finance) ----------
-async function updateCommodities() {
-  for (const sym of ['GC=F', 'CL=F', 'SI=F']) {
-    const d = await get(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=5d`);
-    const meta = d?.chart?.result?.[0]?.meta;
-    if (meta) console.log(`  ${sym}: ${meta.regularMarketPrice}`);
-  }
-  console.log('✅ Commodities consultadas');
+const COMMOD = [
+  { sym: 'GC=F', key: 'gold',    nome: 'Ouro' },
+  { sym: 'SI=F', key: 'silver',  nome: 'Prata' },
+  { sym: 'CL=F', key: 'wti',     nome: 'Petróleo WTI' },
+  { sym: 'BZ=F', key: 'brent',   nome: 'Brent' },
+  { sym: 'NG=F', key: 'gas',     nome: 'Gás Natural' },
+  { sym: 'HG=F', key: 'copper',  nome: 'Cobre' },
+  { sym: 'KC=F', key: 'coffee',  nome: 'Café' },
+  { sym: 'ZW=F', key: 'wheat',   nome: 'Trigo' },
+  { sym: 'PL=F', key: 'platina', nome: 'Platina' },
+];
+
+function commodRow(nome, sub, q, cur, unid) {
+  if (!q) return '';
+  const c = pct(q.chg);
+  const tend = c.cls === 'positive' ? '<span style="color:var(--green);">↑ Alta</span>' : (c.cls === 'negative' ? '<span style="color:var(--red);">↓ Baixa</span>' : '<span style="color:var(--text-muted);">→ Estável</span>');
+  return `<tr>
+            <td><strong>${nome}</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">${sub}</span></td>
+            <td style="text-align:right;">${cur}${q.price.toLocaleString('en-US', { maximumFractionDigits: 2 })}${unid}</td>
+            ${cell(c.txt, c.cls)}
+            <td>${tend}</td>
+          </tr>`;
 }
 
-// ---------- TIMESTAMP ----------
-function updateTimestamps() {
+async function updateCommodities(dataOut) {
+  const d = {};
+  for (const cfg of COMMOD) {
+    d[cfg.key] = await yahooQuote(cfg.sym);
+    if (d[cfg.key]) console.log(`  ${cfg.nome}: ${d[cfg.key].price} (${d[cfg.key].chg >= 0 ? '+' : ''}${d[cfg.key].chg.toFixed(2)}%)`);
+    await sleep(1200);
+  }
+
+  const fp = path.join(process.cwd(), 'commodities.html');
+  let html = fs.readFileSync(fp, 'utf8');
+
+  if (d.gold) {
+    html = html.replace('$4,321', '$' + Math.round(d.gold.price).toLocaleString('en-US'));
+    html = html.replace('$4,163.20/oz', '$' + d.gold.price.toFixed(2) + '/oz');
+  }
+  if (d.silver) html = html.replace('$60.47/oz', '$' + d.silver.price.toFixed(2) + '/oz');
+  if (d.wti) {
+    html = html.replace('$92.41', '$' + d.wti.price.toFixed(2));
+    html = html.replace('$91.58/bbl', '$' + d.wti.price.toFixed(2) + '/bbl');
+  }
+  if (d.brent) html = html.replace('$95.42/bbl', '$' + d.brent.price.toFixed(2) + '/bbl');
+  if (d.gas) html = html.replace('$3.02/MMBtu', '$' + d.gas.price.toFixed(2) + '/MMBtu');
+
+  const rows = [
+    commodRow('Cobre (Cu)', 'Metal industrial chave', d.copper, '$', '/lb'),
+    commodRow('Café (KC)', 'Exportações brasileiras', d.coffee, '$', '/lb'),
+    commodRow('Trigo (ZW)', 'Alimentos/grãos', d.wheat, '$', '/bu'),
+    commodRow('Platina (PL)', 'Metal precioso industrial', d.platina, '$', '/oz'),
+  ].filter(Boolean).join('\n          ');
+  if (rows) html = replaceBetween(html, 'Outras Commodities Importantes', '<tbody>', '</tbody>',
+    '<tbody>\n          ' + rows + '\n        </tbody>');
+
+  fs.writeFileSync(fp, html, 'utf8');
+  console.log('✅ commodities.html atualizado (preços reais Yahoo)');
+
+  dataOut['commodities'] = d;
+}
+
+// ---------- TIMESTAMP + JSON ----------
+function updateTimestamps(dataOut) {
   const now = new Date();
   const stamp = now.toISOString().slice(0, 10) + ' (atualização semanal automática)';
   for (const f of ['index.html','macro.html','cripto.html','commodities.html','realestate.html','alternativos.html','stocks.html','cronica.html']) {
@@ -128,14 +284,17 @@ function updateTimestamps() {
     html = html.replace(/Última atualização: [^<]*(<\/p>|<\/span>)/g, `Última atualização: ${stamp}$1`);
     fs.writeFileSync(fp, html, 'utf8');
   }
-  console.log('✅ Timestamps atualizados');
+  dataOut['updated'] = now.toISOString();
+  fs.writeFileSync(path.join(process.cwd(), 'market_data.json'), JSON.stringify(dataOut, null, 2) + '\n');
+  console.log('✅ Timestamps + market_data.json atualizados');
 }
 
 (async () => {
+  const dataOut = {};
   await updateTop10();
   await updateFearGreed();
-  await updateStocks();
-  await updateCommodities();
-  updateTimestamps();
+  await updateMarkets(dataOut);
+  await updateCommodities(dataOut);
+  updateTimestamps(dataOut);
   console.log('🏁 Atualização semanal concluída: ' + new Date().toISOString());
 })();

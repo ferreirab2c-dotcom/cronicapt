@@ -1,128 +1,103 @@
 {
-  "BTC-USD": {
-    "price": 84598.48,
-    "prev_close": 84853.1,
-    "change_pct": -0.323,
-    "volume": 42177511424,
-    "market_cap": 0
+  "indices": {
+    "psi20": {
+      "price": 9288.39,
+      "chg": -1.4016345326062702
+    },
+    "ibex": {
+      "price": 19190.9,
+      "chg": -1.3027020911119986
+    },
+    "gspc": {
+      "price": 7811.54,
+      "chg": 1.1501129135848471
+    },
+    "ixic": {
+      "price": 27366.17,
+      "chg": 0.6447387099929817
+    },
+    "stoxx": {
+      "price": 6203,
+      "chg": -1.1037541671781737
+    }
   },
-  "ETH-USD": {
-    "price": 2680.48,
-    "prev_close": 2705.537,
-    "change_pct": -0.7215,
-    "volume": 18095493120,
-    "market_cap": 0
+  "etfs": {
+    "VWCE.DE": {
+      "price": 173.42,
+      "chg": 0.3007518796992376
+    },
+    "IWDA.AS": {
+      "price": 132.17,
+      "chg": 0.22749677712897773
+    },
+    "EQQQ.DE": {
+      "price": 674.8,
+      "chg": -0.07404116688879017
+    },
+    "SUSW.L": {
+      "price": 14.4,
+      "chg": 0.8756567425569177
+    }
   },
-  "BNB-USD": {
-    "price": 772.05,
-    "prev_close": 771.1844,
-    "change_pct": 0.0233,
-    "volume": 1584093568,
-    "market_cap": 0
+  "stocks": {
+    "NVDA": {
+      "price": 229.28,
+      "chg": -1.9961530241504544
+    },
+    "AMD": {
+      "price": 608.1,
+      "chg": -4.071555899102388
+    },
+    "META": {
+      "price": 718.67,
+      "chg": -1.292440391165817
+    },
+    "AAPL": {
+      "price": 336.64,
+      "chg": 0.8840540621534924
+    },
+    "TSLA": {
+      "price": 382.7,
+      "chg": 3.2677622170053198
+    }
   },
-  "SOL-USD": {
-    "price": 119.35,
-    "prev_close": 118.39783,
-    "change_pct": 0.87905,
-    "volume": 4496296960,
-    "market_cap": 0
+  "commodities": {
+    "gold": {
+      "price": 4195.3,
+      "chg": 1.3186176250392534
+    },
+    "silver": {
+      "price": 60.945,
+      "chg": 1.7462728927027154
+    },
+    "wti": {
+      "price": 93.03,
+      "chg": 5.38060715903942
+    },
+    "brent": {
+      "price": 106.04,
+      "chg": 5.8283433133732565
+    },
+    "gas": {
+      "price": 3.14,
+      "chg": -1.9669060256009907
+    },
+    "copper": {
+      "price": 6.768,
+      "chg": 2.6076409945421424
+    },
+    "coffee": {
+      "price": 284.7,
+      "chg": -2.7331738981892726
+    },
+    "wheat": {
+      "price": 672.5,
+      "chg": -2.0393299344501092
+    },
+    "platina": {
+      "price": 1699.5,
+      "chg": 4.059515062454075
+    }
   },
-  "XRP-USD": {
-    "price": 1.4947,
-    "prev_close": 1.494038,
-    "change_pct": -0.3267603,
-    "volume": 3721796352,
-    "market_cap": 0
-  },
-  "ADA-USD": {
-    "price": 0.25002,
-    "prev_close": 0.246267,
-    "change_pct": -0.11984268,
-    "volume": 644753728,
-    "market_cap": 0
-  },
-  "AVAX-USD": {
-    "price": 10.976,
-    "prev_close": 10.99937,
-    "change_pct": 0.3199,
-    "volume": 500324352,
-    "market_cap": 0
-  },
-  "DOT-USD": {
-    "price": 1.2086,
-    "prev_close": 1.177009,
-    "change_pct": 2.4758418,
-    "volume": 152713616,
-    "market_cap": 0
-  },
-  "LINK-USD": {
-    "price": 14.121,
-    "prev_close": 14.382877,
-    "change_pct": -1.465355,
-    "volume": 494314272,
-    "market_cap": 0
-  },
-  "DOGE-USD": {
-    "price": 0.09435,
-    "prev_close": 0.094328,
-    "change_pct": -0.4746837,
-    "volume": 1135335424,
-    "market_cap": 0
-  },
-  "^GSPC": {
-    "price": 7715.76,
-    "prev_close": 7651.54,
-    "change_pct": 0.643,
-    "volume": 1611794000,
-    "market_cap": 0
-  },
-  "^IXIC": {
-    "price": 27156.783,
-    "prev_close": 26861.06,
-    "change_pct": 1.061,
-    "volume": 4387365000,
-    "market_cap": 0
-  },
-  "^STOXX50E": {
-    "price": 6238.5,
-    "prev_close": 6175.45,
-    "change_pct": 1.021,
-    "volume": 0,
-    "market_cap": 0
-  },
-  "^IBEX": {
-    "price": 19085.3,
-    "prev_close": 19005.3,
-    "change_pct": 0.421,
-    "volume": 107858866,
-    "market_cap": 0
-  },
-  "GC=F": {
-    "price": 4163.2,
-    "prev_close": 4202.3,
-    "change_pct": -0.93,
-    "volume": 152852,
-    "market_cap": 0
-  },
-  "SI=F": {
-    "price": 60.465,
-    "prev_close": 60.725,
-    "change_pct": -1.161,
-    "volume": 34970,
-    "market_cap": 0
-  },
-  "CL=F": {
-    "price": 91.58,
-    "prev_close": 92.87,
-    "change_pct": -1.389,
-    "volume": 270557,
-    "market_cap": 0
-  },
-  "NG=F": {
-    "price": 3.02,
-    "prev_close": 2.967,
-    "change_pct": 1.786,
-    "volume": 129826,
-    "market_cap": 0
-  }
+  "updated": "2026-10-12T09:55:28.055Z"
 }
