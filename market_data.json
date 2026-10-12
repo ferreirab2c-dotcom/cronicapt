@@ -1,103 +1,358 @@
 {
   "indices": {
     "psi20": {
-      "price": 9288.39,
-      "chg": -1.4016345326062702
+      "price": 9303.68,
+      "chg": -1.239327716463049
     },
     "ibex": {
-      "price": 19190.9,
-      "chg": -1.3027020911119986
+      "price": 19241.8,
+      "chg": -1.040927371658394
     },
     "gspc": {
-      "price": 7811.54,
-      "chg": 1.1501129135848471
+      "price": 7804.46,
+      "chg": 0.3924645772097867
     },
     "ixic": {
-      "price": 27366.17,
-      "chg": 0.6447387099929817
+      "price": 27267.072,
+      "chg": -0.7651331225654956
     },
     "stoxx": {
-      "price": 6203,
-      "chg": -1.1037541671781737
+      "price": 6199.05,
+      "chg": -1.166730174116692
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 173.42,
-      "chg": 0.3007518796992376
+      "price": 173.3,
+      "chg": 0.23134759976865568
     },
     "IWDA.AS": {
-      "price": 132.17,
-      "chg": 0.22749677712897773
+      "price": 132.14,
+      "chg": 0.2047470994160778
     },
     "EQQQ.DE": {
-      "price": 674.8,
-      "chg": -0.07404116688879017
+      "price": 670.8,
+      "chg": -0.6663705019991115
     },
     "SUSW.L": {
-      "price": 14.4,
-      "chg": 0.8756567425569177
+      "price": 14.38,
+      "chg": 0.7355516637478138
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 229.28,
-      "chg": -1.9961530241504544
+      "price": 225.43,
+      "chg": -5.638342402678945
     },
     "AMD": {
-      "price": 608.1,
-      "chg": -4.071555899102388
+      "price": 588.52,
+      "chg": -6.842896715472896
     },
     "META": {
-      "price": 718.67,
-      "chg": -1.292440391165817
+      "price": 742.735,
+      "chg": 0.11254886103248907
     },
     "AAPL": {
-      "price": 336.64,
-      "chg": 0.8840540621534924
+      "price": 341.315,
+      "chg": 2.5308660518489625
     },
     "TSLA": {
-      "price": 382.7,
-      "chg": 3.2677622170053198
+      "price": 380.57,
+      "chg": 0.4858342354711734
     }
   },
   "commodities": {
     "gold": {
-      "price": 4195.3,
-      "chg": 1.3186176250392534
+      "price": 4190,
+      "chg": 1.1906199434878206
     },
     "silver": {
-      "price": 60.945,
-      "chg": 1.7462728927027154
+      "price": 60.69,
+      "chg": 1.3205562697206912
     },
     "wti": {
-      "price": 93.03,
-      "chg": 5.38060715903942
+      "price": 93.91,
+      "chg": 6.377435432714086
     },
     "brent": {
-      "price": 106.04,
-      "chg": 5.8283433133732565
+      "price": 107.07,
+      "chg": 6.856287425149691
     },
     "gas": {
-      "price": 3.14,
-      "chg": -1.9669060256009907
+      "price": 3.147,
+      "chg": -1.748360911645334
     },
     "copper": {
-      "price": 6.768,
-      "chg": 2.6076409945421424
+      "price": 6.756,
+      "chg": 2.425712553062464
     },
     "coffee": {
-      "price": 284.7,
-      "chg": -2.7331738981892726
+      "price": 287.35,
+      "chg": -1.8278100444140644
     },
     "wheat": {
-      "price": 672.5,
-      "chg": -2.0393299344501092
+      "price": 670.5,
+      "chg": -2.3306627822286963
     },
     "platina": {
-      "price": 1699.5,
-      "chg": 4.059515062454075
+      "price": 1693.1,
+      "chg": 3.667646338476602
     }
   },
-  "updated": "2026-10-12T09:55:28.055Z"
+  "news": {
+    "generated": "2026-10-12T14:39:42.649Z",
+    "buckets": {
+      "resumo": [
+        {
+          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+        },
+        {
+          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+        },
+        {
+          "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 14:26:00 -0500",
+          "l": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+        },
+        {
+          "t": "DeepSeek Won't Sink U.S. AI Titans",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 13:12:00 -0500",
+          "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+        },
+        {
+          "t": "Meeting of 9-10 September 2026",
+          "src": "BCE",
+          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+        },
+        {
+          "t": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 14:07:00 +0000",
+          "l": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "macro": [
+        {
+          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+        },
+        {
+          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+        },
+        {
+          "t": "União Europeia adota programa de 115 milhões de euros para inovação rápida na defesa",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 10:53:40 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/uniao-europeia-adota-programa-de-115-milhoes-de-euros-para-inovacao-rapida-na-defesa/"
+        },
+        {
+          "t": "Máximo dos Santos deixa administração do Banco de Portugal no final do mês",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 10:21:37 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/maximo-dos-santos-deixa-administracao-do-banco-de-portugal-no-final-do-mes/"
+        },
+        {
+          "t": "Meeting of 9-10 September 2026",
+          "src": "BCE",
+          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+        },
+        {
+          "t": "Piero Cipollone: Interview with Corriere della Sera",
+          "src": "BCE",
+          "d": "Thu, 08 Oct 2026 08:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html"
+        }
+      ],
+      "stocks": [
+        {
+          "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 14:26:00 -0500",
+          "l": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main"
+        },
+        {
+          "t": "Comex Gold, Silver Settle Lower",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 14:01:00 -0500",
+          "l": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+        },
+        {
+          "t": "DeepSeek Won't Sink U.S. AI Titans",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 13:12:00 -0500",
+          "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
+        },
+        {
+          "t": "Financial Services Roundup: Market Talk",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 12:27:00 -0500",
+          "l": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main"
+        },
+        {
+          "t": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 12:20:00 -0500",
+          "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
+        },
+        {
+          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
+        }
+      ],
+      "commodities": [
+        {
+          "t": "Comex Gold, Silver Settle Lower",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 14:01:00 -0500",
+          "l": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main"
+        },
+        {
+          "t": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 12:20:00 -0500",
+          "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
+        },
+        {
+          "t": "Natural Gas Falls on Shifting Weather Forecasts",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 09:05:00 -0500",
+          "l": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main"
+        },
+        {
+          "t": "Natural-Gas Firm Diversified Energy Strikes Deal for Permian Basin Player",
+          "src": "WSJ",
+          "d": "Mon, 27 Jan 2025 06:57:00 -0500",
+          "l": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main"
+        },
+        {
+          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
+        }
+      ],
+      "cripto": [
+        {
+          "t": "XRP treasury Evernorth’s shares rise 5% at Nasdaq opening print",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 14:18:49 +0000",
+          "l": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 14:07:00 +0000",
+          "l": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Here’s what happened in crypto today",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 12:46:51 +0000",
+          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Strategy adds 250 Bitcoin as holdings reach 848,250 BTC",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 12:31:51 +0000",
+          "l": "https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Australia proposes leverage caps for crypto-settled derivatives",
+          "src": "Cointelegraph",
+          "d": "Mon, 12 Oct 2026 11:41:58 +0000",
+          "l": "https://cointelegraph.com/news/australia-asic-crypto-settled-cfd-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        }
+      ],
+      "realestate": [
+        {
+          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+        },
+        {
+          "t": "Agricultores exigem 140 milhões ao Governo para recuperar competitividade",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 12:30:51 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/agricultores-exigem-140-milhoes-ao-governo-para-recuperar-competitividade/"
+        },
+        {
+          "t": "Câmara do Porto manda retirar acampamento de protesto contra preços da habitação",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 10:55:52 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/camara-do-porto-manda-retirar-acampamento-de-protesto-contra-precos-da-habitacao/"
+        },
+        {
+          "t": "Euribor mantém-se a três meses e desce a seis e a 12 meses",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 10:28:21 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/euribor-mantem-se-a-tres-meses-e-desce-a-seis-e-a-12-meses-2/"
+        }
+      ],
+      "alternativos": [
+        {
+          "t": "O dinheiro das nossas pensões está a trabalhar para o patrão errado",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 09:37:24 +0000",
+          "l": "https://eco.sapo.pt/opiniao/o-dinheiro-das-nossas-pensoes-esta-a-trabalhar-para-o-patrao-errado/"
+        },
+        {
+          "t": "Meeting of 9-10 September 2026",
+          "src": "BCE",
+          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+        }
+      ],
+      "geral": [
+        {
+          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+        },
+        {
+          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+        },
+        {
+          "t": "União Europeia adota programa de 115 milhões de euros para inovação rápida na defesa",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 10:53:40 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/uniao-europeia-adota-programa-de-115-milhoes-de-euros-para-inovacao-rapida-na-defesa/"
+        },
+        {
+          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
+        },
+        {
+          "t": "Meo e Nokia aceleram a evolução para redes autónomas e nativas de IA",
+          "src": "ECO",
+          "d": "Mon, 12 Oct 2026 13:20:20 +0000",
+          "l": "https://eco.sapo.pt/2026/10/12/meo-e-nokia-aceleram-a-evolucao-para-redes-autonomas-e-nativas-de-ia/"
+        }
+      ]
+    }
+  },
+  "updated": "2026-10-12T14:39:42.650Z"
 }
