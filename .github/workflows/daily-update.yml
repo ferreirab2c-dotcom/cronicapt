@@ -1,0 +1,50 @@
+name: Daily Market Data Update
+
+on:
+  schedule:
+    # Todos os domingos às 21h UTC (22h hora de Portugal)
+    - cron: '0 21 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-all-pages:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Fetch live market data and update all sections
+        run: |
+          node update_data.js
+      - name: Verify updates
+        run: |
+          ls -la *.html || echo "No HTML files"
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "📊 Daily market data update [Auto]"
+            git push || echo "No changes or push failed"
+          else
+            echo "No changes to commit"
+          fi
+      
+      - name: Notify success
+        if: success()
+        run: echo "✅ Daily update completed at $(date -u)"
+        
+      - name: Handle failure  
+        if: failure()
+        run: echo "❌ Daily update failed"
