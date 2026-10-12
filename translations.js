@@ -40,7 +40,7 @@ var PT_EN = {
  "Resumo simples e direto de tudo para o pequeno investidor português": "Simple, direct summary of everything for the small Portuguese investor",
  "Mercados Globais em Tempo Real": "Global Markets in Real Time",
  "em Tempo Real": "in Real Time",
- "Análise semanal completa: macroeconomia, criptoativos, commodities, real estate, ações e estratégias de investimento para o pequeno investidor português.": "Complete daily analysis: macroeconomics, crypto assets, commodities, real estate, stocks and investment strategies for the small Portuguese investor.",
+ "Análise semanal completa: macroeconomia, criptoativos, commodities, real estate, ações e estratégias de investimento para o pequeno investidor português.": "Complete weekly analysis: macroeconomics, crypto assets, commodities, real estate, stocks and investment strategies for the small Portuguese investor.",
  "Explorar Mercados": "Explore Markets",
  "Falar Connosco →": "Talk to Us →",
  "Páginas de Análise": "Analysis Pages",
