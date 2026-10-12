@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macroeconomia — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link" style="color:var(--gold)">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>🏛️ Macroeconomia Global</h1>
+        <p>Notícias económicas das principais economias mundiais — EUA, China, Europa, Portugal e Espanha</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Sentiment Overview -->
+    <section class="inner-section">
+      <h2>Sentimento Global do Mercado</h2>
+      <div class="data-grid">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-icon" style="font-size:2rem;margin-bottom:0.5rem;">🌍</div>
+          <div class="data-card-value positive" style="font-size:2.5rem;">Greed (70)</div>
+          <div class="data-card-label">Fear & Greed Index — Global</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:72%"></div></div>
+          <p style="margin-top:0.5rem;font-size:0.875rem;color:var(--text-muted);">Elevada ganância nos últimos 3 dias</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💵</span><span class="news-badge">USD</span></div>
+          <div class="data-card-value">DXY: 104.32</div>
+          <div class="positive">↑ Subiu +0.15% esta semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Índice do dólar forte devido a dados económicos positivos dos EUA</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Bonds</span></div>
+          <div class="data-card-value">10Y US: 4.22%</div>
+          <div class="negative">↑ Alta pressão nas taxas</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Taxas treasury americanas continuam elevadas</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💱</span><span class="news-badge">Forex</span></div>
+          <div class="data-card-value">EUR/USD: 1.0845</div>
+          <div class="negative">↓ Pressão sobre EUR</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Euro enfraquece face ao dólar forte</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estados Unidos -->
+    <section class="inner-section">
+      <h2>🇺🇸 Estados Unidos</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, manhã</p>
+          <div class="news-item-header"><h3>Fed mantém taxas na faixa de 5.25-5.50%</h3><span class="news-badge">Importante</span></div>
+          <p>A Reserva Federal dos EUA manteve as taxas de juros inalteradas após reunião FOMC. O Chairman Powell enfatizou que decisões futuras dependem dos dados económicos. A inflação coreme persistente a 3.7%, acima da meta de 2%.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, tarde</p>
+          <div class="news-item-header"><h3>PIB Q3 cresce 4.9% — Maior taxa em 2 anos</h3><span class="news-badge">Dados Económicos</span></div>
+          <p>O PIB americano expandiu-se impressionantes 4.9% no terceiro trimestre, superando expectativas de analistas que previam apenas 3.8%. Consumo doméstico robusto impulsionou o crescimento económico.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Ontem</p>
+          <div class="news-item-header"><h3>Vendas detalhadas subiram 0.7% em Novembro</h3><span class="news-badge">Consumo</span></div>
+          <p>As vendas retalhistas registraram aumento inesperado, sinalizando resiliência do consumo apesar da incerteza política global e tensões comerciais com a China.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- China -->
+    <section class="inner-section">
+      <h2>🇨🇳 China</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, manhã</p>
+          <div class="news-item-header"><h3>PBC corta taxa de refinanciamento para 5.5%</h3><span class="news-badge">Política Monetária</span></div>
+          <p>O People's Bank of China anunciou redução surpresa nas taxas para estimular economia desacelerada. Esta é a segunda redução este ano, refletindo preocupações com mercado imobiliário e exportações fracas.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Ontem</p>
+          <div class="news-item-header"><h3>DAXI sobe 2.8% após anúncio de estímulos</h3><span class="news-badge">Mercados</span></div>
+          <p>Principal índice chinês registou forte alta após Beijing anunciar pacote de medidas para apoiar setor imobiliário e incentivar consumo interno. Investidores reagem positivamente.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Europa -->
+    <section class="inner-section">
+      <h2>🇪🇺 Europa</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, manhã</p>
+          <div class="news-item-header"><h3>BCE mantém taxas aos 4.50% — Sinaliza corte em Dezembro</h3><span class="news-badge">Política Monetária</span></div>
+          <p>O Banco Central Europeu manteve taxas principais inalteradas mas Presidente Lagarde sugeriu cortes podem vir em Dezembro se inflação continuar a cair. Inflação Eurozona desceu para 2.4%.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Ontem</p>
+          <div class="news-item-header"><h3>Euro STOXX 50 sobe 1.2% liderado por tecnologia</h3><span class="news-badge">Mercados</span></div>
+          <p>Principal índice europeu fechou em alta impulsionado por setor de tecnologia e semicondutores. ASML e SAP lideram ganhos no DAX alemão.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Portugal -->
+    <section class="inner-section">
+      <h2>🇵🇹 Portugal</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, manhã</p>
+          <div class="news-item-header"><h3>Inflação portuguesa desce para 1.9% em Novembro</h3><span class="news-badge">Inflação</span></div>
+          <p>INE reportou que inflação nacional caiu abaixo média europeia pela primeira vez este ano. Energéticos e alimentação lideram queda, aliviando pressões sobre famílias portuguesas.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Ontem</p>
+          <div class="news-item-header"><h3>Governo aprova novo pacote de apoio à habitação</h3><span class="news-badge">Habitacao</span></div>
+          <p>Conselho de Ministros aprovou medidas para facilitar acesso ao crédito habitacional, incluindo garantias State e redução impostos para primeiros compradores até 40 anos.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">2 dias atrás</p>
+          <div class="news-item-header"><h3>PSI sobe 1.8% — Valores absolutos mais altos desde 2000</h3><span class="news-badge">Mercados</span></div>
+          <p>Índice português atingiu máximos não registados há décadas, impulsionado por setores financeiros e energéticos. Galp e EDP lideram ganhos significativos.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Espanha -->
+    <section class="inner-section">
+      <h2>🇪🇸 Espanha</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <p class="news-date">Hoje, manhã</p>
+          <div class="news-item-header"><h3>IBEX35 fecha semana acima dos 12,000 pontos</h3><span class="news-badge">Mercados</span></div>
+          <p>Principal índice espanhol alcançou novo recorde histórico impulsionado por bancos e utilities. Santander e BBVA registam ganhos significativos com resultados trimestrais positivos.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">Ontem</p>
+          <div class="news-item-header"><h3>Crescimento econômico de 3.0% — Melhor desempenho da UE</h3><span class="news-badge">Crescimento</span></div>
+          <p>Espanha lidera crescimento econômico na Zona Euro com PIB expandindo 3.0% anualmente. Turismo e construção imobiliária são principais motores de expansão.</p>
+        </article>
+        <article class="news-item fade-in">
+          <p class="news-date">2 dias atrás</p>
+          <div class="news-item-header"><h3>Taxas hipotecárias fixas caem para 3.2% — Mais barato desde 2020</h3><span class="news-badge">Habitação</span></div>
+          <p>Bancos espanhóis começam a baixar taxas hipotecárias fixas devido à estabilização das taxas do BCE. Isto pode revitalizar mercado imobiliário espanhol no próximo trimestre.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resumo Semanal Macro -->
+    <section class="inner-section">
+      <h2>📋 Resumo Semanal Macroeconómico</h2>
+      <div class="data-card" style="border-left:4px solid var(--gold);">
+        <h3 style="font-size:1.25rem;font-weight:700;margin-bottom:1rem;">Panorama Geral</h3>
+        <p style="color:var(--text-secondary);line-height:1.7;">
+          <strong>Esta semana focou-se principalmente na ação do Fed norte-americano e sinais do BCE.</strong> Os dados económicos dos EUA surpreenderam positivamente com crescimento do PIB a 4.9%, mantendo pressões inflacionárias. A China continua a tentar estimular sua economia com cortes de taxas, enquanto Europa mostra sinais de recuperação moderada com inflação a diminuir.
+        </p>
+        <p style="color:var(--text-secondary);line-height:1.7;margin-top:1rem;">
+          <strong>Impacto para investidores portugueses:</strong> Taxas ainda altas significam créditos caros — paciência é necessária. PSI20 em máximos históricos reflete otimismo institucional. Diversificação internacional continua essencial dada incerteza geopolítica global.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

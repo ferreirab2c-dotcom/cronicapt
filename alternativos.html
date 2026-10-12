@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investimentos Alternativos — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link" style="color:var(--gold)">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>💰 Investimentos Alternativos</h1>
+        <p>Certificados de Aforro, Tesouro Direto, Crowdfunding e outros investimentos não convencionais</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Overview -->
+    <section class="inner-section">
+      <h2>Sentimento Geral dos Alternativos</h2>
+      <div class="data-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value positive">Positivo</div>
+          <div class="data-card-label">Procura por seguros aumentou 40%</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Incerteza macro impulsiona demanda</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">Taxas Seguras ~4%</div>
+          <div class="data-card-label">Bons títulos governamentais</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Melhores rendimentos em 15 anos</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">$3.1T</div>
+          <div class="data-card-label">Global Alternative Investments</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Crescimento contínuo do setor</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">Aumento</div>
+          <div class="data-card-label">Crowdfunding imobiliário cresce</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Plataformas europeias expandem</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificados de Aforro -->
+    <section class="inner-section">
+      <h2>🏛️ Certificados de Aforro (Portugal)</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🇵🇹</span><span class="news-badge">CA Série F</span></div>
+          <div class="data-card-value">2.5% ao ano</div>
+          <div class="positive">Taxa garantida 5 anos</div>
+          <div class="data-card-label">Mínimo €500 por pessoa</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Renovação automática se não solicitares resgate até 30 dias após vencimento.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🔒</span><span class="news-badge">Segurança</span></div>
+          <div class="data-card-value">100% Estado</div>
+          <div class="positive">Garantia governamental total</div>
+          <div class="data-card-label">Protegido pela República Portuguesa</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">O investimento alternativo mais seguro disponível para particulares.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💸</span><span class="news-badge">Fiscalidade</span></div>
+          <div class="data-card-value">28% IRS</div>
+          <div class="data-card-label">Retenção na fonte nos juros</div>
+          <div class="data-card-label">Isenção capital gains</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Juros estão sujeitos a 28% de IRS. Não há mais tributação adicional.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚖️</span><span class="news-badge">Comparação</span></div>
+          <div class="data-card-value">Top 5 opções</div>
+          <div class="positive">Rendimento seguro competitivo</div>
+          <div class="data-card-label">Para perfis conservadores</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Excelente opção para quem prefere segurança acima de rentabilidade elevada.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tesouro Direto Brazil -->
+    <section class="inner-section">
+      <h2>🇧🇷 Tesouro Direto (Brasil)</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Tesouro IPCA+ 2035 rende 6.5% + IPCA</h3><span class="news-badge">Melhor Opção PT</span></div>
+          <p>O Tesouro IPCA+ é considerado uma das melhores opções para portugueses que querem hedge contra inflação brasileira. Rendimento real esperado de ~6.5% ao ano mais inflação medida pelo IPCA.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Tesouro SELIC atinge 11.75% anual</h3><span class="news-badge">Renda Fixa Brasil</span></div>
+          <p>A taxa básica de juros brasileira mantém-se alta. O Tesouro SELIC acompanha esta taxa oferecendo rendimento diário isento de IR para investidores até €23,000 (~R$130k).</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Dólar a €0.85 — oportunidades cambiais</h3><span class="news-badge">Cambial</span></div>
+          <p>Com dólar forte, investir no Tesouro Direto pode oferecer retornos atraentes mesmo considerando risco cambial. Diversificação internacional via moeda emergente.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Crowdfunding -->
+    <section class="inner-section">
+      <h2>🤝 Crowdfunding de Investimento</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏠</span><span class="news-badge">Imobiliário</span></div>
+          <div class="data-card-value">8-12% retorno anual</div>
+          <div class="positive">Investimento direto em projetos</div>
+          <div class="data-card-label">Mínimos típicos: €50-200</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Groww, Roofstock, Lofty (EUA); Imfi, Revolt (Europa)</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💼</span><span class="news-badge">Empresarial</span></div>
+          <div class="data-card-value">10-15% potencial</div>
+          <div class="negative">Alto risco / alto retorno</div>
+          <div class="data-card-label">Startups e PMEs portuguesas</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">eGree, GoInvestNow, Seedrs - investimento em empresas early-stage</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌱</span><span class="news-badge">Green/Social</span></div>
+          <div class="data-card-value">4-8% retorno</div>
+          <div class="positive">Impacto social positivo</div>
+          <div class="data-card-label">Projetos sustentáveis e sociais</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Kiva Microfinance, Zidisha — microcrédito global</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚠️</span><span class="news-badge">Risco</span></div>
+          <div class="data-card-value">Diversificar é crucial</div>
+          <div class="negative">Nunca mais de 10% do portefólio</div>
+          <div class="data-card-label">Liquidez limitada</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Prazos de investimento longos (3-7 anos). Capital em risco.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- P2P Lending -->
+    <section class="inner-section">
+      <h2>🏦 P2P Lending / Empréstimos Ponto-a-Ponto</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Plataforma</th>
+            <th style="text-align:right;">Retorno Médio</th>
+            <th>País</th>
+            <th>Nota</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Mintos</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Europeu</span></td>
+            <td style="text-align:right;">5-8%</td>
+            <td>EU Multi</td>
+            <td style="color:var(--green);">⭐ Recomendado</td>
+          </tr>
+          <tr>
+            <td><strong>Zillow</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Imobiliário EUA</span></td>
+            <td style="text-align:right;">7-10%</td>
+            <td>EUA</td>
+            <td style="color:var(--green);">⭐ Boa reputação</td>
+          </tr>
+          <tr>
+            <td><strong>PeerBerry</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Letonia</span></td>
+            <td style="text-align:right;">9-12%</td>
+            <td>EU/Baltics</td>
+            <td style="color:var(--red);">⚡ Alto risco</td>
+          </tr>
+          <tr>
+            <td><strong>Revoluto P2P</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">UK/EU</span></td>
+            <td style="text-align:right;">4-6%</td>
+            <td>EU</td>
+            <td style="color:var(--green);">✅ Acessível</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Gold Savings -->
+    <section class="inner-section">
+      <h2>🥇 Metais Preciosos Físicos e Fracionados</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>BuyGold.pt — ouro físico fracionado desde €10</h3><span class="news-badge">Acessível</span></div>
+          <p>Plataforma portuguesa permite comprar ouro físico entregue em cofres suíços. Mínimo acessível de €10. Possibilidade de pedir entrega física ou manter fraccionado.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Paxmetal — prata e ouro sem despesas de guarda</h3><span class="news-badge">Sem Comissões</span></div>
+          <p>Paxmetal oferece investimento em metais preciosos sem custos anuais de armazenamento. Prata desde €100, ouro desde €500. Entregue em cofres em Luxembourg.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>BullionVault — mercado global com spreads baixos</h3><span class="news-badge">Profissional</span></div>
+          <p>BullionVault é o maior mercado online de metais preciosos com spreads desde 0.5%. Armazenamento em 7 banks vaults worldwide. Ideal para investimentos maiores.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Strategy -->
+    <section class="inner-section">
+      <h2>📊 Estratégia para o Pequeno Investidor</h2>
+      <div class="data-card" style="border-left:4px solid var(--gold);">
+        <h3 style="font-size:1.125rem;font-weight:700;margin-bottom:1rem;">Alocação Sugerida (até €200/mês)</h3>
+        <div style="margin-bottom:1rem;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;"><strong>Certificados de Aforro</strong><span class="positive">10-20%</span></div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-extreme" style="width:15%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Base segura do portefólio — proteção máxima</p>
+        </div>
+        <div style="margin-bottom:1rem;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;"><strong>ETFs Globais (VWCE/IWDA)</strong><span class="positive">50-60%</span></div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:55%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Motor principal de crescimento a longo prazo</p>
+        </div>
+        <div style="margin-bottom:1rem;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;"><strong>Crowdfunding (Imobiliário/Empresarial)</strong><span style="color:#f59e0b;">5-10%</span></div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-fear" style="width:10%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Diversificação geográfica e setorial</p>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;"><strong>Ouro Físico/Fracionado</strong><span class="positive">5-10%</span></div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-neutral" style="width:10%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Hedge contra inflação e incerteza económica</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

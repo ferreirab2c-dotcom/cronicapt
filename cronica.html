@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crónica Semanal — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link" style="color:var(--gold)">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>📝 Crónica Semanal</h1>
+        <p>Resumo simples e direto de tudo para o pequeno investidor português</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+        <p class="data-card-label" style="color:var(--text-muted);font-size:0.875rem;margin-top:0.25rem;">Próxima atualização: Sábado, 2 de Novembro 2024</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section class="inner-section">
+      <div class="data-card" style="border-left:4px solid var(--gold);background:rgba(255,215,0,0.03);">
+        <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1rem;">O que se passou esta semana no mundo?</h2>
+        <p style="color:var(--text-secondary);line-height:1.8;font-size:1.05rem;">
+          Olá! Se és como eu e queres saber rapidamente o que se passa nos mercados sem precisar de ler 50 artigos — esta crónica é para ti. Vou resumir tudo em linguagem simples. Sem jargão complicado, sem fórmulas matemáticas. Só o essencial para saberes onde está o teu dinheiro e o que deves fazer com ele.
+        </p>
+      </div>
+    </section>
+
+    <!-- Macro Summary -->
+    <section class="inner-section">
+      <h2>🏛️ Macroeconomia — O panorama geral</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>EUA: A economia continua forte mas a inflação resiste</h3><span class="news-badge">Destaque</span></div>
+          <p>O PIB americano cresceu 4.9% no último trimestre — acima do esperado. Isso é bom porque significa empregos e rendimentos. Mas também preocupa porque mantém a inflação alta. O Fed manteve as taxas nos 5.25-5.50% e provavelmente vai demorar até meados de 2025 a baixar.</p>
+          <p style="margin-top:0.5rem;"><strong>E isto afeta-te assim:</strong> Juros altos significam créditos mais caros. Espera pelo menos mais um ano antes de veres taxas de hipoteca mais baixas.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Europa e Portugal: Situação melhorou mas com cautela</h3><span class="news-badge">Europa/PT</span></div>
+          <p>O BCE sinalizou que pode cortar juros em Dezembro se a inflação continuar a cair. Em Portugal, o PSI20 bateu máximos não vistos desde 2000 — ótimo sinal para quem tem ações portuguesas. A inflação nacional desceu para 1.9%, abaixo da média europeia.</p>
+          <p style="margin-top:0.5rem;"><strong>E isto afeta-te assim:</strong> Pode ser boa altura para começar a investir. Taxas a baixar costumam favorecer bolsas de ações.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>China: Estímulos económicos prometidos mas duvidosos</h3><span class="news-badge">China</span></div>
+          <p>A China cortou taxas e prometeu apoiar o setor imobiliário. O mercado reagiu bem mas os analistas são cautelosos — já ouviram promessas antes. O importante é verem-se resultados concretos nos próximos meses.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Crypto Summary -->
+    <section class="inner-section">
+      <h2>₿ Criptoativos — Bitcoin e além</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">₿</span><span class="news-badge">Bitcoin</span></div>
+          <div class="data-card-value">$84,894</div>
+          <div class="positive">-0.32% hoje | -1.2% semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Consolidação acima dos $84K. Institucionais continuam a comprar via ETFs.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚡</span><span class="news-badge">Ethereum</span></div>
+          <div class="data-card-value">$2,713</div>
+          <div class="positive">-0.72% hoje | Upgrade L2 ativo</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Arbitrum e Optimism registam volumes recordes de transações.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🔥</span><span class="news-badge">Sentimento</span></div>
+          <div class="data-card-value positive">72/100 (Greed)</div>
+          <div class="data-card-label">Medo = oportunidade / Ganância = atenção</div>
+        </div>
+      </div>
+      <div class="data-card" style="margin-top:1.5rem;border-left:4px solid var(--gold);">
+        <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">💡 A minha opinião sobre cripto esta semana</h3>
+        <p style="color:var(--text-secondary);line-height:1.7;font-size:0.925rem;">
+          O Bitcoin consolida de forma saudável acima dos $84K. Isto é positivo — estamos a formar uma base sólida antes da próxima grande subida. Para o pequeno investidor, este é exatamente o momento certo para fazer DCA (Dollar Cost Averaging): compra pequenas quantidades regularmente, independentemente do preço. Não tentes "adivinhar o fundo".
+        </p>
+      </div>
+    </section>
+
+    <!-- Stocks Summary -->
+    <section class="inner-section">
+      <h2>📈 Ações e ETFs — Mercado de capitais</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>NVIDIA e AMD dominam a conversa — IA continua a ser rei</h3><span class="news-badge">Tech/AI</span></div>
+          <p>A NVIDIA anunciou parceria com Google para chips AI personalizados. A AMD bateu recorde histórico com o chip MI300X. Estas duas empresas estão a definir o futuro da computação.</p>
+          <p style="margin-top:0.5rem;"><strong>Para o pequeno investidor:</strong> Em vez de comprares ações individuais (arriscado), considera ETFs como o QQQ (Nasdaq 100) ou VT (Whole World) que te dão exposição ampla ao setor tecnológico.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>PSI20 e IBEX35 atingem máximos históricos</h3><span class="news-badge">Europa</span></div>
+          <p>Mercados ibéricos brilham. Lisboa a 6,542 pontos (máximos desde 2000) e Madrid acima dos 12,000. Setores energético e bancário lideram ganhos.</p>
+          <p style="margin-top:0.5rem;"><strong>Atenção:</strong> Máximos históricos podem significar correções iminentes. Não entres apressado — espera por alguma volatilidade para entrares a preços mais atraentes.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Commodities Summary -->
+    <section class="inner-section">
+      <h2>🏆 Commodities — Ouro, petróleo e mais</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🥇</span><span class="news-badge">Ouro</span></div>
+          <div class="data-card-value">$4,163/oz</div>
+          <div class="positive">Recorde absoluto!</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Bancos centrais compram massivamente. Hedge perfeito contra incerteza.</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🛢️</span><span class="news-badge">Petróleo</span></div>
+          <div class="data-card-value negative">$91.58/bbl</div>
+          <div class="negative">-1.39% queda semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Demanda chinesa fraca pressiona preços.</p>
+        </div>
+      </div>
+      <p style="color:var(--text-secondary);margin-top:1.5rem;font-size:0.925rem;line-height:1.7;">
+        <strong>O ouro perto de máximos históricos é um sinal importante:</strong> investidores institucionales estão protegidos contra incerteza macro. Se estás preocupado com crises futuras, ter 5-10% do portefólio em ouro faz sentido.
+      </p>
+    </section>
+
+    <!-- Real Estate Summary -->
+    <section class="inner-section">
+      <h2>🏠 Real Estate — Habitação em Portugal e Espanha</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Lisboa estabiliza — Porto recupera forte</h3><span class="news-badge">Portugal</span></div>
+          <p>Os preços em Lisboa travaram quedas e estabilizaram à volta dos €4,350/m². O Porto registra crescimento de 2.8% impulsionado por investimento estrangeiro. O interior português continua a sofrer com preços abaixo de €900/m².</p>
+          <p style="margin-top:0.5rem;"><strong>Conselho:</strong> Se não tens capital suficiente para comprar em Lisboa, considera cidades médias como Braga, Coimbra ou Aveiro — crescimento potencial maior.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Espanha oferece melhores condições hipotecárias</h3><span class="news-badge">Espanha</span></div>
+          <p>Taxas fixas na Espanha caíram para 3.2% — nível não visto desde 2020. Em Portugal ainda estamos nos 4.1%. A relação preço/rendimento é mais favorável em Espanha.</p>
+          <p style="margin-top:0.5rem;"><strong>Dica:</strong> Se queres investir em imóveis para rentabilizar, a Espanha pode oferecer melhor returns agora. Rentabilidades de 4-5% brutos em Madrid/Barcelona vs 3-4% em Lisboa/Porto.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Investment Allocation -->
+    <section class="inner-section">
+      <h2>💰 Sugestão de Alocação para €150/mês</h2>
+      <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Com base na análise desta semana, aqui está a minha sugestão de distribuição mensal:</p>
+      
+      <div class="data-grid">
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>ETF Global (VWCE/IWDA)</strong>
+            <span class="positive">30% = €45</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:30%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Motor principal. Diversificação instantânea em 1,500+ empresas mundiais.</p>
+        </div>
+        
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>Tech/AI ETF (QQQ/ARTL)</strong>
+            <span class="positive">13% = €20</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-extreme" style="width:13%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Crescimento exponencial. Setor tecnologia continua forte — mas cuidado com concentração.</p>
+        </div>
+        
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>Ouro (IAU/SVL)</strong>
+            <span style="color:#f59e0b;">27% = €40</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-fear" style="width:27%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Hedge contra incerteza. Com ouro a máximos, pondera reduzir ligeiramente para 10-15% a longo prazo.</p>
+        </div>
+        
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>Certificados de Aforro</strong>
+            <span class="positive">7% = €10</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-extreme" style="width:7%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Base segura. 2.5% garantidos durante 5 anos. Protege parte do portefólio.</p>
+        </div>
+        
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>Bitcoin DCA</strong>
+            <span class="positive">10% = €15</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-neutral" style="width:10%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">€3.75/semana automática. Compra regular independente do preço.</p>
+        </div>
+        
+        <div class="alloc-item">
+          <div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;">
+            <strong>Reserva Emergência</strong>
+            <span style="color:#f59e0b;">13% = €20</span>
+          </div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-neutra" style="width:13%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Tens sempre dinheiro disponível para oportunidades ou emergências.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekly Action Plan -->
+    <section class="inner-section">
+      <h2>📋 Plano de Ação para Esta Semana</h2>
+      <div class="data-card" style="border-left:4px solid var(--green);background:rgba(16,185,129,0.03);">
+        <ol style="list-style:none;padding:0;">
+          <li style="padding:0.75rem 0;border-bottom:1px solid var(--border);display:flex;gap:1rem;align-items:start;">
+            <span style="color:var(--gold);font-weight:700;min-width:24px;">1</span>
+            <span style="color:var(--text-secondary);line-height:1.7;">Compra VWCE ou IWDA via broker regulado — €45 deste mês</span>
+          </li>
+          <li style="padding:0.75rem 0;border-bottom:1px solid var(--border);display:flex;gap:1rem;align-items:start;">
+            <span style="color:var(--gold);font-weight:700;min-width:24px;">2</span>
+            <span style="color:var(--text-secondary);line-height:1.7;">Configura DCA automático de Bitcoin €3.75/semana na Binance ou Coinbase</span>
+          </li>
+          <li style="padding:0.75rem 0;border-bottom:1px solid var(--border);display:flex;gap:1rem;align-items:start;">
+            <span style="color:var(--gold);font-weight:700;min-width:24px;">3</span>
+            <span style="color:var(--text-secondary);line-height:1.7;">Investi €10 em Certificados de Aforro Série F (se ainda não tens)</span>
+          </li>
+          <li style="padding:0.75rem 0;border-bottom:1px solid var(--border);display:flex;gap:1rem;align-items:start;">
+            <span style="color:var(--gold);font-weight:700;min-width:24px;">4</span>
+            <span style="color:var(--text-secondary);line-height:1.7;">Revisa se tens reserva de emergência equivalente a 3-6 meses de despesas</span>
+          </li>
+          <li style="padding:0.75rem 0;display:flex;gap:1rem;align-items:start;">
+            <span style="color:var(--gold);font-weight:700;min-width:24px;">5</span>
+            <span style="color:var(--text-secondary);line-height:1.7;">Não faças nada impulsivo! Resista ao FOMO — disciplina supera timing</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Final Thought -->
+    <section class="inner-section">
+      <div class="data-card" style="border-left:4px solid var(--gold);background:rgba(255,215,0,0.05);text-align:center;">
+        <h3 style="font-size:1.25rem;font-weight:700;margin-bottom:1rem;">💭 Pensamento Final da Semana</h3>
+        <blockquote style="font-size:1.125rem;font-style:italic;color:var(--text-secondary);line-height:1.8;">
+          "Começar com €150/mês hoje é sempre melhor do que esperar ter mais dinheiro para começar amanhã. O poder dos juros compostos funciona melhor quando lhe damos tempo. Daqui a 10 anos, vais agradecer-te a ti mesmo por teres começado HOJE."
+        </blockquote>
+        <p style="margin-top:1rem;color:var(--text-muted);font-size:0.875rem;">— Equipa CrónicaPT</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

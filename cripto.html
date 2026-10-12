@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptoativos — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link" style="color:var(--gold)">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>₿ Criptoativos</h1>
+        <p>Top 10 criptomoedas, categorias DeFi/L2, TVL, sentimento Fear & Greed e narrativas vencedoras</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Sentiment Overview -->
+    <section class="inner-section">
+      <h2>Sentimento de Mercado — Fear & Greed Index</h2>
+      <div class="data-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value positive" style="font-size:3rem;">72</div>
+          <div class="data-card-label" style="font-size:1.125rem;font-weight:600;color:var(--green);">Greed (Ganância)</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:72%"></div></div>
+          <p style="margin-top:0.5rem;font-size:0.875rem;color:var(--text-muted);">Elevada ganância nos últimos 3 dias</p>
+        </div>
+        <div class="data-card"><div class="data-card-icon">📊</div><div class="data-card-value">$2,848B</div><div class="data-card-label">Market Cap Total Cripto</div></div>
+        <div class="data-card"><div class="data-card-icon">💹</div><div class="data-card-value positive">+$85B</div><div class="data-card-label">Volume 24h</div></div>
+        <div class="data-card"><div class="data-card-icon">₿</div><div class="data-card-value">59.6%</div><div class="data-card-label">Dominância BTC</div></div>
+      </div>
+    </section>
+
+    <!-- Categories Breakdown -->
+    <section class="inner-section">
+      <h2>Categorias Populares</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏦</span><span class="news-badge">DeFi</span></div>
+          <div class="data-card-value positive">+5.8%</div>
+          <div class="data-card-label">TVL cresceu $2.3B esta semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Uniswap, Aave e Curve lideram crescimento</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚡</span><span class="news-badge">Layer 2</span></div>
+          <div class="data-card-value positive">+15.4%</div>
+          <div class="data-card-label">Arbitrum, Optimism e Base em destaque</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Upgrade Dencun impulsiona adoção</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🎮</span><span class="news-badge">Gaming/NFT</span></div>
+          <div class="data-card-value negative">-2.3%</div>
+          <div class="data-card-label">Setor consolidando após queda Q2</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Novos lançamentos esperados para 2025</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🧠</span><span class="news-badge">AI Tokens</span></div>
+          <div class="data-card-value positive">+8.2%</div>
+          <div class="data-card-label">Render, Fetch.ai e SingularityNET em alta</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Integração IA + Blockchain acelera</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top 10 Crypto Table -->
+    <section class="inner-section">
+      <h2>Top 10 Criptomoedas por Market Cap</h2>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nome</th>
+              <th>Preço</th>
+              <th>24h %</th>
+              <th>7d %</th>
+              <th>Mkt Cap</th>
+              <th>Peso %</th>
+            </tr>
+          </thead>
+          <tbody>
+<tr>
+              <td>1</td>
+              <td><strong>Bitcoin</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">BTC</span></td>
+              <td style="text-align:right;><strong>$85,837</strong></td>
+              <td style="text-align:right; class="negative">-0.74%</td>
+              <td style="text-align:right; class="positive">+2.85%</td>
+              <td style="text-align:right;>$1.72T</td>
+              <td style="text-align:right;>71.0%</td>
+            </tr>
+<tr>
+              <td>2</td>
+              <td><strong>Ethereum</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">ETH</span></td>
+              <td style="text-align:right;><strong>$2,715</strong></td>
+              <td style="text-align:right; class="negative">-0.37%</td>
+              <td style="text-align:right; class="positive">+0.99%</td>
+              <td style="text-align:right;>$331.5B</td>
+              <td style="text-align:right;>13.6%</td>
+            </tr>
+<tr>
+              <td>3</td>
+              <td><strong>BNB</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">BNB</span></td>
+              <td style="text-align:right;><strong>$787.75</strong></td>
+              <td style="text-align:right; class="negative">-0.87%</td>
+              <td style="text-align:right; class="positive">+3.06%</td>
+              <td style="text-align:right;>$104.9B</td>
+              <td style="text-align:right;>4.3%</td>
+            </tr>
+<tr>
+              <td>4</td>
+              <td><strong>XRP</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">XRP</span></td>
+              <td style="text-align:right;><strong>$1.51</strong></td>
+              <td style="text-align:right; class="negative">-0.60%</td>
+              <td style="text-align:right; class="positive">+0.54%</td>
+              <td style="text-align:right;>$95.2B</td>
+              <td style="text-align:right;>3.9%</td>
+            </tr>
+<tr>
+              <td>5</td>
+              <td><strong>Solana</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">SOL</span></td>
+              <td style="text-align:right;><strong>$120.82</strong></td>
+              <td style="text-align:right; class="negative">-0.32%</td>
+              <td style="text-align:right; class="positive">+1.65%</td>
+              <td style="text-align:right;>$71.1B</td>
+              <td style="text-align:right;>2.9%</td>
+            </tr>
+<tr>
+              <td>6</td>
+              <td><strong>TRON</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">TRX</span></td>
+              <td style="text-align:right;><strong>$0.3363</strong></td>
+              <td style="text-align:right; class="positive">+0.17%</td>
+              <td style="text-align:right; class="positive">+0.25%</td>
+              <td style="text-align:right;>$31.9B</td>
+              <td style="text-align:right;>1.3%</td>
+            </tr>
+<tr>
+              <td>7</td>
+              <td><strong>Zcash</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">ZEC</span></td>
+              <td style="text-align:right;><strong>$1,332</strong></td>
+              <td style="text-align:right; class="negative">-1.37%</td>
+              <td style="text-align:right; class="negative">-10.41%</td>
+              <td style="text-align:right;>$21.7B</td>
+              <td style="text-align:right;>0.9%</td>
+            </tr>
+<tr>
+              <td>8</td>
+              <td><strong>Hyperliquid</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">HYPE</span></td>
+              <td style="text-align:right;><strong>$93.92</strong></td>
+              <td style="text-align:right; class="positive">+3.97%</td>
+              <td style="text-align:right; class="positive">+7.90%</td>
+              <td style="text-align:right;>$20.9B</td>
+              <td style="text-align:right;>0.9%</td>
+            </tr>
+<tr>
+              <td>9</td>
+              <td><strong>Dogecoin</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">DOGE</span></td>
+              <td style="text-align:right;><strong>$0.0955</strong></td>
+              <td style="text-align:right; class="negative">-0.52%</td>
+              <td style="text-align:right; class="positive">+1.28%</td>
+              <td style="text-align:right;>$16.4B</td>
+              <td style="text-align:right;>0.7%</td>
+            </tr>
+<tr>
+              <td>10</td>
+              <td><strong>Monero</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">XMR</span></td>
+              <td style="text-align:right;><strong>$562.29</strong></td>
+              <td style="text-align:right; class="positive">+3.17%</td>
+              <td style="text-align:right; class="positive">+4.35%</td>
+              <td style="text-align:right;>$10.6B</td>
+              <td style="text-align:right;>0.4%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TVL Section -->
+    <section class="inner-section">
+      <h2>Total Value Locked (TVL) no DeFi</h2>
+      <div class="data-grid">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">$128.4B</div>
+          <div class="data-card-label">TVL Total Todas as Chains</div>
+          <p class="positive" style="margin-top:0.5rem;">↑ +$2.8B (+2.3%) esta semana</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">58.2%</div>
+          <div class="data-card-label">Dominância Ethereum</div>
+          <p style="margin-top:0.5rem;color:var(--text-muted);">da TVL total do ecossistema</p>
+        </div>
+      </div>
+      
+      <h3>Top Protocolos por TVL</h3>
+      <div class="news-list">
+        <article class="news-item fade-in"><div class="news-item-header"><h3>#1 Lido Finance — $32.1B (25.0%)</h3><span class="news-badge">Staking ETH</span></div><p>Líquido staking líder. Depositar ETH → get stETH. Rendimentos ~4.5% anual.</p></article>
+        <article class="news-item fade-in"><div class="news-item-header"><h3>#2 Aave V3 — $18.7B (14.6%)</h3><span class="news-badge">Empréstimos</span></div><p>O maior protocolo lending. Empréstimos e depósitos cross-chain.</p></article>
+        <article class="news-item fade-in"><div class="news-item-header"><h3>#3 MakerDAO — $15.3B (11.9%)</h3><span class="news-badge">DAI Issuance</span></div><p>Protocolo por trás da stablecoin DAI. Geração de renda passiva com colateral.</p></article>
+        <article class="news-item fade-in"><div class="news-item-header"><h3>#4 Uniswap V3 — $12.8B (10.0%)</h3><span class="news-badge">DEX</span></div><p>A maior exchange descentralizada. Trading fees geram receita significativa.</p></article>
+        <article class="news-item fade-in"><div class="news-item-header"><h3>#5 Curve Finance — $9.4B (7.3%)</h3><span class="news-badge">Stablecoins</span></div><p>Especializado em trading entre stablecoins. Baixas taxas, alto volume.</p></article>
+      </div>
+    </section>
+
+    <!-- Winning Narratives -->
+    <section class="inner-section">
+      <h2>🏆 Narrativa Vencedora do Momento</h2>
+      <div class="data-card" style="border-left:4px solid var(--gold);">
+        <h3 style="font-size:1.25rem;font-weight:700;margin-bottom:1rem;">AI × Crypto: A fusão que vai dominar o ciclo</h3>
+        <p style="color:var(--text-secondary);line-height:1.7;">
+          A convergência entre Inteligência Artificial e blockchain está a criar oportunidades únicas. Projetos como Render Network (GPU computing), Fetch.ai (IA autônoma) e SingularityNET (marketplace IA) estão a registar crescimento exponencial.
+        </p>
+        <p style="color:var(--text-secondary);line-height:1.7;margin-top:1rem;">
+          <strong>Porquê agora?</strong> A demanda por poder computacional excede oferta global. Blockchains oferecem infraestrutura descentralizada para treinar modelos AI a custos significativamente inferiores. Grandes investidores institucionais estão a aumentar exposição a este setor.
+        </p>
+        <div style="margin-top:1.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
+          <span class="news-badge">Render +24%</span>
+          <span class="news-badge">Fetch.ai +18%</span>
+          <span class="news-badge">SingularityNET +31%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Sentiment -->
+    <section class="inner-section">
+      <h2>🔥 Sentimento Social</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">₿</span><span class="news-badge">#1 Trending</span></div>
+          <div class="data-card-value">Bitcoin</div>
+          <div class="positive">🔥 +25% volume social</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">2.4M menções diárias • 89% positivo</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚡</span><span class="news-badge">Rising</span></div>
+          <div class="data-card-value">Solana</div>
+          <div class="positive">🚀 Memecoin season</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">1.2M menções • 82% positivo</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">👾</span><span class="news-badge">AI Hype</span></div>
+          <div class="data-card-value">NEAR Protocol</div>
+          <div class="positive">+64% growth social</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">380K menções • 91% positivo</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

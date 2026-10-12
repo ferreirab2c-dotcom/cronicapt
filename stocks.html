@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ações e ETFs — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link" style="color:var(--gold)">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>📈 Ações & ETFs</h1>
+        <p>PSI20, IBEX35, maiores ETFs e as ações mais importantes do mundo</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Market Indices Overview -->
+    <section class="inner-section">
+      <h2>Índices Principais</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Índice</th>
+            <th style="text-align:right;">Valor</th>
+            <th style="text-align:right;">Variação</th>
+            <th style="text-align:right;">YTD %</th>
+            <th>Tendência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>🇵🇹 PSI20</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Portugal</span></td>
+            <td style="text-align:right;"><strong>6,542</strong></td>
+            <td style="text-align:right;" class="positive">+1.8%</td>
+            <td style="text-align:right;" class="positive">+8.2%</td>
+            <td style="color:var(--green);">🔺 Alta</td>
+          </tr>
+          <tr>
+            <td><strong>🇪🇸 IBEX35</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Espanha</span></td>
+            <td style="text-align:right;"><strong>19,085</strong></td>
+            <td style="text-align:right;" class="positive">+0.42%</td>
+            <td style="text-align:right;" class="positive">+11.8%</td>
+            <td style="color:var(--green);">🔺 Alta forte</td>
+          </tr>
+          <tr>
+            <td><strong>🇺🇸 S&P 500</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">EUA Large Cap</span></td>
+            <td style="text-align:right;"><strong>7,716</strong></td>
+            <td style="text-align:right;" class="positive">+0.64%</td>
+            <td style="text-align:right;" class="positive">+23.8%</td>
+            <td style="color:var(--green);">🔺 Nova alta</td>
+          </tr>
+          <tr>
+            <td><strong>🇪🇺 EURO STOXX 50</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Europa Blue Chip</span></td>
+            <td style="text-align:right;"><strong>6,239</strong></td>
+            <td style="text-align:right;" class="positive">+0.8%</td>
+            <td style="text-align:right;" class="positive">+14.9%</td>
+            <td style="color:var(--green);">🔺 Crescente</td>
+          </tr>
+          <tr>
+            <td><strong>🌏 MSCI World</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Global Developed</span></td>
+            <td style="text-align:right;"><strong>2,845</strong></td>
+            <td style="text-align:right;" class="positive">+0.3%</td>
+            <td style="text-align:right;" class="positive">+21.8%</td>
+            <td style="color:var(--green);">⬆️ Estável</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- PSI20 Detail -->
+    <section class="inner-section">
+      <h2>🇵🇹 PSI20 — Análise Detalhada</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Índice</span></div>
+          <div class="data-card-value">6,542 pts</div>
+          <div class="positive">+1.8% hoje (+$115)</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Máximos desde 2000 — crescimento sustentado</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💰</span><span class="news-badge">Top Gainers</span></div>
+          <div class="data-card-value positive">Galp +4.2%</div>
+          <div class="data-card-label">EDP +3.1%, REN +2.5%</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Setor energético lidera ganhos da semana</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏦</span><span class="news-badge">Banca</span></div>
+          <div class="data-card-value">BCP +2.8%</div>
+          <div class="data-card-label">Millennium BCP forte trimestre</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Resultado líquido Q3 supera expectativas</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📈</span><span class="news-badge">Volume</span></div>
+          <div class="data-card-value">€85M</div>
+          <div class="positive">↑ Volume acima média</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Atividade institucional aumenta em Lisboa</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- IBEX35 Detail -->
+    <section class="inner-section">
+      <h2>🇪🇸 IBEX35 — Análise Detalhada</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Índice</span></div>
+          <div class="data-card-value">12,245 pts</div>
+          <div class="positive">+1.2% — Novo recorde histórico</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Mercado espanhol bate máximos absolutos</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💰</span><span class="news-badge">Top Stocks</span></div>
+          <div class="data-card-value">Iberdrola +3.5%</div>
+          <div class="data-card-label">Telefónica +2.1%, Santander +1.8%</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Renováveis e banca impulsionam índice</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏢</span><span class="news-badge">Inditex (Zara)</span></div>
+          <div class="data-card-value">€48.50</div>
+          <div class="positive">+6.2% YTD forte</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Resultados trimestrais superam todas expectativas</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏦</span><span class="news-badge">Bancos ES</span></div>
+          <div class="data-card-value">Santander BBB+</div>
+          <div class="positive">Ratios capital sólidos</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">BBVA e Sabadell também registam bons resultados</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top ETFs -->
+    <section class="inner-section">
+      <h2>🌍 Maiores ETFs Mundiais</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>ETF</th>
+            <th style="text-align:right;">Preço</th>
+            <th style="text-align:right;">Variação</th>
+            <th style="text-align:right;">AUM</th>
+            <th>Nota</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><strong>Vanguard S&P 500 (VOO)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">S&P500 EUA</span></td>
+            <td style="text-align:right;">$485</td>
+            <td style="text-align:right;" class="positive">+0.64%</td>
+            <td style="text-align:right;">$385B</td>
+            <td style="color:var(--green);">⭐ Nº1 mundial</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>VWCE — Vanguard FTSE All-World</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Global ACWI UCITS</span></td>
+            <td style="text-align:right;">€108</td>
+            <td style="text-align:right;" class="positive">+0.4%</td>
+            <td style="text-align:right;">€75B</td>
+            <td style="color:var(--green);">✅ Recomendado PT</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>iShares Core MSCI World (IWDA)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Developed Markets</span></td>
+            <td style="text-align:right;">€85</td>
+            <td style="text-align:right;" class="positive">+0.3%</td>
+            <td style="text-align:right;">€68B</td>
+            <td style="color:var(--green);">✅ Excelente alternativa</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><strong>Invesco NASDAQ 100 (EQQQ)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Tech Heavy</span></td>
+            <td style="text-align:right;">$125</td>
+            <td style="text-align:right;" class="positive">+0.42%</td>
+            <td style="text-align:right;">€52B</td>
+            <td style="color:var(--blue);">⚡ Tech focus</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><strong>SPDR S&P 500 (SPY)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Original S&P500 ETF</span></td>
+            <td style="text-align:right;">$908</td>
+            <td style="text-align:right;" class="positive">+0.64%</td>
+            <td style="text-align:right;">$450B</td>
+            <td style="color:var(--blue);">🏆 Mais liquid</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><strong>iShares ESG Global Corp Bond</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Obrigações Globais</span></td>
+            <td style="text-align:right;">€32</td>
+            <td style="text-align:right;" class="positive">+0.1%</td>
+            <td style="text-align:right;">€8B</td>
+            <td style="color:var(--purple);">🛡️ Defensive</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Top Stocks -->
+    <section class="inner-section">
+      <h2>🏢 Principais Ações por Mercado</h2>
+      
+      <h3>🇺🇸 Nasdaq / S&P 500 — Tech Giants</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Ação</th>
+            <th style="text-align:right;">Preço</th>
+            <th style="text-align:right;">Mkt Cap</th>
+            <th style="text-align:right;">Variação</th>
+            <th>Catalisador</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>NVIDIA (NVDA)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Semicondutores AI</span></td>
+            <td style="text-align:right;"><strong>$225</strong></td>
+            <td style="text-align:right;">$2.2T</td>
+            <td style="text-align:right;" class="positive">+0.2%</td>
+            <td style="font-size:0.875rem;">Parceria Google novos chips AI</td>
+          </tr>
+          <tr>
+            <td><strong>AMD (AMD)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Semicondutores</span></td>
+            <td style="text-align:right;"><strong>$560</strong></td>
+            <td style="text-align:right;">$905B</td>
+            <td style="text-align:right;" class="positive">+2.3%</td>
+            <td style="font-size:0.875rem;">Recorde histórico — novo chip MI300X</td>
+          </tr>
+          <tr>
+            <td><strong>Meta Platforms (META)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Social Media + AI</span></td>
+            <td style="text-align:right;"><strong>$238</strong></td>
+            <td style="text-align:right;">$606B</td>
+            <td style="text-align:right;" class="positive">+1.5%</td>
+            <td style="font-size:0.875rem;">Lançamento AI Agent "Muse"</td>
+          </tr>
+          <tr>
+            <td><strong>Apple (AAPL)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Consumer Tech</span></td>
+            <td style="text-align:right;"><strong>$236</strong></td>
+            <td style="text-align:right;">$3.6T</td>
+            <td style="text-align:right;" class="positive">+0.8%</td>
+            <td style="font-size:0.875rem;">iPhone Duo esperado Q1 2025</td>
+          </tr>
+          <tr>
+            <td><strong>Tesla (TSLA)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">EV + Autonomy</span></td>
+            <td style="text-align:right;"><strong>$236</strong></td>
+            <td style="text-align:right;">$750B</td>
+            <td style="text-align:right;" class="negative">-2.1%</td>
+            <td style="font-size:0.875rem;">FSD V14 rollout começa Novembro</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sentiment Section -->
+    <section class="inner-section">
+      <h2>Sentimento de Mercado de Ações</h2>
+      <div class="data-grid">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value positive" style="font-size:2.5rem;">Greed (68)</div>
+          <div class="data-card-label">Fear & Greed Index Ações</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:68%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Investidores otimistas mas cautelosos</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">Put/Call Ratio</div>
+          <div class="data-card-value">0.78</div>
+          <div class="positive">↓ Menos proteção = mais confiança</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Histórico: abaixo 0.7 = extremo greed</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">Short Interest</div>
+          <div class="data-card-value negative">3.2% float</div>
+          <div class="negative">↑ Aumento posicionamento bajista</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Short sellers apostam contra mercado</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="inner-section">
+      <h2>📰 Principais Notícias do Dia</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>NVIDIA anuncia parceria histórica com Google para chips IA de próxima geração</h3><span class="news-badge">Destaque</span></div>
+          <p>A NVIDIA revelou hoje um acordo estratégico com o Google Cloud para desenvolver processadores customizados específicos para training de modelos AI de grande escala. A parceria visa superar limitações atuais de hardware.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>AMD bate recorde histórico com lançamento do chip MI300X</h3><span class="news-badge">Produto</span></div>
+          <p>O novo chip de IA da AMD superou expectativas em benchmarks, competindo diretamente com o H100 da NVIDIA. Ações sobem 2.3% após anúncio e empresas como Microsoft e Meta já manifestaram interesse.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>PSI20 atinge máximo não registado desde 2000 — Galp lidera</h3><span class="news-badge">Portugal</span></div>
+          <p>O principal índice português fechou a 6,542 pontos impulsionado pelo setor energético e financeiro. Resultados excecionais da Galp e do Millennium BCP contribuíram para o sentimento positivo.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>IBEX35 sopra os 12,000 pontos pela primeira vez na história</h3><span class="news-badge">Espanha</span></div>
+          <p>Mercado espanhol atinge marco simbólico com apoio do setor bancário e industrial. Iberdrola e Inditex são os principais motores da subida que prolonga ciclo alcista iniciado em 2023.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Strategy for small investors -->
+    <section class="inner-section">
+      <h2>💡 Estratégia para o Pequeno Investidor</h2>
+      <div class="data-card" style="border-left:4px solid var(--gold);">
+        <h3 style="font-size:1.125rem;font-weight:700;margin-bottom:1rem;">Como Começar com €150/mês em Ações/ETFs</h3>
+        <p style="color:var(--text-secondary);line-height:1.7;margin-bottom:1rem;">
+          <strong>Passo 1:</strong> Abre conta num broker regulado europeu (UCITS) — Degiro, Trade Republic ou Interactive Brokers.<br><br>
+          <strong>Passo 2:</strong> Começa com VWCE (All-World) ou IWDA (World) — diversificação instantânea em 1,500+ empresas.<br><br>
+          <strong>Passo 3:</strong> Define débito automático mensal — disciplina é mais importante que timing.<br><br>
+          <strong>Passo 4:</strong> Reinveste todos os dividendos automaticamente (acumulação).<br><br>
+          <strong>Passo 5:</strong> Aguarda. O tempo no mercado > tentar timing de mercado.
+        </p>
+        <div class="data-card" style="margin-top:1rem;">
+          <h4 style="font-size:0.875rem;font-weight:600;margin-bottom:0.5rem;">📊 Projeção: €150/mês a 8% anual durante 30 anos</h4>
+          <p style="font-size:1.5rem;font-weight:700;color:var(--green);">€242,000</p>
+          <p style="font-size:0.875rem;color:var(--text-muted);">Total investido: €54,000 | Juros compostos: €188,000</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

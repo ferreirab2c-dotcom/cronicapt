@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crónica PT Investimento — Visão Geral dos Mercados</title>
+  <meta name="description" content="Portal completo de análise de mercados financeiros para investidores portugueses. Cripto, ações, macroeconomia e mais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" data-i18n="hero.title">Mercados Globais<br><span class="gradient-text">em Tempo Real</span></h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Análise diária completa: macroeconomia, criptoativos, commodities, real estate, ações e estratégias de investimento para o pequeno investidor português.</p>
+      <div class="hero-buttons">
+        <a href="macro.html" class="btn btn-primary">Explorar Mercados</a>
+        <a href="#subscricao" class="btn btn-secondary">Falar Connosco →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-number" data-count="7">0</span><span class="stat-label" data-i18n="Páginas de Análise">Páginas de Análise</span></div>
+        <div class="stat-item"><span class="stat-number" data-count="150">0</span><span class="stat-label">€ Mínimo Sugerido</span></div>
+        <div class="stat-item"><span class="stat-number" data-count="21">0</span><span class="stat-label">Atualizações/Dia</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section quick-links-section" id="mercados">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📊 Mercados</span>
+        <h2 class="section-title">Explore por Categoria</h2>
+        <p class="section-desc">Clique em qualquer secção para análises detalhadas atualizadas diariamente às 21h UTC</p>
+      </div>
+      <div class="quick-links-grid">
+        <a href="macro.html" class="quick-card">
+          <div class="quick-card-icon">🏛️</div>
+          <h3 class="mb-2">Macroeconomia</h3>
+          <p>Notícias US, China, Europa, Portugal e Espanha. Taxas de juros e indicadores económicos.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="cripto.html" class="quick-card">
+          <div class="quick-card-icon">₿</div>
+          <h3 class="mb-2">Criptoativos</h3>
+          <p>Top 10 criptos, categorias DeFi/L2, TVL, sentimento Fear & Greed e narrativas vencedoras.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="commodities.html" class="quick-card">
+          <div class="quick-card-icon">🏆</div>
+          <h3 class="mb-2">Commodities</h3>
+          <p>Ouro, prata, petróleo e gás natural. Preços em tempo real e análise de mercado.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="realestate.html" class="quick-card">
+          <div class="quick-card-icon">🏠</div>
+          <h3 class="mb-2">Real Estate</h3>
+          <p>Mercado imobiliário em Portugal e Espanha. Compra, arrendamento e taxas hipotecárias.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="alternativos.html" class="quick-card">
+          <div class="quick-card-icon">💰</div>
+          <h3 class="mb-2">Investimentos Alternativos</h3>
+          <p>Certificados de Aforro, Tesouro Direto, Crowdfunding e outros ativos não convencionais.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="stocks.html" class="quick-card">
+          <div class="quick-card-icon">📈</div>
+          <h3 class="mb-2">Ações & ETFs</h3>
+          <p>PSI20, IBEX35, maiores ETFs mundiais e ações mais importantes. Sentiment e notícias.</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="cronica.html" class="quick-card featured">
+          <div class="quick-card-icon">📝</div>
+          <h3 class="mb-2">Crónica Semanal</h3>
+          <p>Resumo simples e direto de tudo numa linguagem acessível ao pequeno investidor.</p>
+          <span class="card-badge">Destaque</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ℹ️ Sobre Nós</span>
+        <h2 class="section-title">Porquê Investir?</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-card"><h3>🎯 A Nossa Missão</h3><p>Acreditamos que todos os portugueses merecem acesso a informação financeira clara. Não importa se começas com €25 ou €500 — o importante é começar.</p></div>
+        <div class="about-card"><h3>📊 Combater a Inflação</h3><p>Deixar dinheiro parado significa perder poder de compra. A inflação média portuguesa ronda os 2-3% ao ano. Investir é proteger o teu património.</p></div>
+        <div class="about-card"><h3>🕰️ O Poder do Tempo</h3><p>Se investires €150/mês durante 30 anos a 8% anual, terás mais de €240,000. Começar cedo é sempre melhor do que esperar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="subscricao" class="section subscribe-section">
+    <div class="container">
+      <div class="subscribe-wrapper">
+        <div class="subscribe-content">
+          <h2 class="section-title" style="color:white;">Subscreve a Newsletter</h2>
+          <p class="subscribe-desc">Recebe resumos diários de mercados e insights diretamente no teu email. Zero spam.</p>
+          <form class="subscribe-form" onsubmit="handleSubscribe(event)">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit" class="btn btn-subscribe">Subscrever →</button>
+          </form>
+          <p class="subscribe-footer">Ao subscrever, aceitas receber comunicação sobre mercados. Podes cancelar a qualquer momento.</p>
+        </div>
+        <div class="subscribe-perks">
+          <div class="perk-item"><span class="perk-icon">📊</span><span>Relatórios diários de mercados</span></div>
+          <div class="perk-item"><span class="perk-icon">💎</span><span>Análise DeFi TVL semanal</span></div>
+          <div class="perk-item"><span class="perk-icon">💡</span><span>Estratégia €150/mês (semanal)</span></div>
+          <div class="perk-item"><span class="perk-icon">📰</span><span>Resumo macroeconómico diário</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">✉️ Contacto</span>
+        <h2 class="section-title">Fala Connosco</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Informações</h3>
+          <div class="contact-items">
+            <div class="contact-item"><span class="contact-icon">📧</span><div><strong>Email</strong><p><a href="mailto:hello@cronicapt.com">hello@cronicapt.com</a></p></div></div>
+            <div class="contact-item"><span class="contact-icon">💬</span><div><strong>Redes Sociais</strong><p>@cronicapt — Instagram, Twitter/X, LinkedIn</p></div></div>
+          </div>
+          <div class="faq-preview">
+            <h4>❓ Perguntas Frequentes</h4>
+            <details><summary>Isto é aconselhamento financeiro?</summary><p style="margin-top:0.5rem"><strong>Não.</strong> Conteúdo educativo e informativo.</p></details>
+            <details><summary>Como funcionam as atualizações?</summary><p style="margin-top:0.5rem">Todas as secções são atualizadas automaticamente às <strong>21h UTC</strong>.</p></details>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleContact(event)">
+          <input type="text" placeholder="Nome" required><input type="email" placeholder="Email" required>
+          <select><option>Consulta Geral</option><option>Colaboração</option><option>Feedback</option><option>Bug Report</option><option>Outro</option></select>
+          <textarea rows="6" placeholder="Mensagem..." required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar Mensagem →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand"><div class="footer-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></div><p class="footer-tagline">Análise diária de mercados financeiros para o pequeno investidor português.</p><p class="footer-disclaimer">© 2026 CrónicaPT. Conteúdo educativo. Não constitui aconselhamento financeiro.</p></div>
+        <div class="footer-links">
+          <div class="footer-col"><h4>Páginas</h4><ul><li><a href="macro.html">Macro</a></li><li><a href="cripto.html">Cripto</a></li><li><a href="commodities.html">Commodities</a></li><li><a href="realestate.html">Real Estate</a></li></ul></div>
+          <div class="footer-col"><h4>Mais</h4><ul><li><a href="alternativos.html">Alternativos</a></li><li><a href="stocks.html">Ações & ETFs</a></li><li><a href="cronica.html">Crónica</a></li></ul></div>
+          <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Termos</a></li><li><a href="#">Privacidade</a></li><li><a href="#">Disclaimer</a></li></ul></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>Feito com 💙 para o pequeno investidor português</p></div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

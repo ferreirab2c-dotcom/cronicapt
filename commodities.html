@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commodities — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link" style="color:var(--gold)">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>🏆 Commodities</h1>
+        <p>Ouro, prata, petróleo e gás natural — preços e análise em tempo real</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Market Sentiment -->
+    <section class="inner-section">
+      <h2>Sentimento de Mercado de Commodities</h2>
+      <div class="data-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value positive" style="font-size:2.5rem;">Neutral</div>
+          <div class="data-card-label">Composite Index Commodities</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-neutral" style="width:55%"></div></div>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">$4,321</div>
+          <div class="data-card-label">Ouro (XAU) por oz</div>
+          <p class="positive" style="margin-top:0.5rem;">🔥 Novo máximo histórico!</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value negative">$92.41</div>
+          <div class="data-card-label">Petróleo WTI por barril</div>
+          <p class="negative" style="margin-top:0.5rem;">⬇️ -2.3% esta semana</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value negative">$3.225</div>
+          <div class="data-card-label">Gás Natural</div>
+          <p class="negative" style="margin-top:0.5rem;">⬇️ Queda contínua</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gold Section -->
+    <section class="inner-section">
+      <h2>🥇 Ouro (XAU)</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💰</span><span class="news-badge">Spot Price</span></div>
+          <div class="data-card-value">$4,163.20/oz</div>
+          <div class="positive">+0.54% hoje (+$23)</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-extreme" style="width:95%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">🔥 Novo recorde absoluto!</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Semana</span></div>
+          <div class="data-card-value positive">+$185</div>
+          <div class="positive">+4.5% na semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Compras massivas dos bancos centrais</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏦</span><span class="news-badge">Bancos Centrais</span></div>
+          <div class="data-card-value">1,037 ton</div>
+          <div class="positive">+10.3% YTD</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">China, Índia e Turquia lideram compras</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📈</span><span class="news-badge">ETFs</span></div>
+          <div class="data-card-value">$185B</div>
+          <div class="positive">AUM total cresce</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Invesco, SPDR e iShares registam entradas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Silver Section -->
+    <section class="inner-section">
+      <h2>🥈 Prata (XAG)</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">💰</span><span class="news-badge">Spot Price</span></div>
+          <div class="data-card-value">$60.47/oz</div>
+          <div class="positive">+1.25% hoje (+$0.80)</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-greed" style="width:72%"></div></div>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏭</span><span class="news-badge">Demanda Industrial</span></div>
+          <div class="data-card-value positive">+8.5%</div>
+          <div class="positive">Crescimento solar e EV</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Setor fotovoltaico consome 20% da prata global</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚖️</span><span class="news-badge">Rácio Ouro/Prata</span></div>
+          <div class="data-card-value">66.6:1</div>
+          <div class="data-card-label">Histórico: 15-20 durante booms</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Indicador de valorização potencial da prata</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌍</span><span class="news-badge">Produção</span></div>
+          <div class="data-card-value">637M oz</div>
+          <div class="data-card-label">Produção anual global</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Déficit estrutural desde 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Oil Section -->
+    <section class="inner-section">
+      <h2>🛢️ Petróleo (WTI & Brent)</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🇺🇸</span><span class="news-badge">WTI</span></div>
+          <div class="data-card-value">$91.58/bbl</div>
+          <div class="negative">-2.33% hoje (-$2.18)</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-fear" style="width:35%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Queda com aumento stock estratégico US</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌍</span><span class="news-badge">Brent (Europa)</span></div>
+          <div class="data-card-value">$95.42/bbl</div>
+          <div class="negative">-1.52% hoje</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Diferencial estável vs WTI $4.44</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Stocks EIA</span></div>
+          <div class="data-card-value negative">+4.2M</div>
+          <div class="data-card-label">Aumento surpresa nas reservas</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Pressão bajista nos preços</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🕌</span><span class="news-badge">OPEC+</span></div>
+          <div class="data-card-value">Corte mantido</div>
+          <div class="data-card-label">2.2M bbl/dia redução coletiva</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Reunião mensal confirma quotas atuais</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Natural Gas Section -->
+    <section class="inner-section">
+      <h2>🔥 Gás Natural</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🇺🇸</span><span class="news-badge">Henry Hub</span></div>
+          <div class="data-card-value">$3.02/MMBtu</div>
+          <div class="negative">+1.79% hoje</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-fear" style="width:25%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Temperaturas amenas reduzem demanda</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌍</span><span class="news-badge">TTF Europa</span></div>
+          <div class="data-card-value">€35.50/MWh</div>
+          <div class="negative">-6.1% esta semana</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Armazéns 92% cheios — nível recorde</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">❄️</span><span class="news-badge">Previsão Inverno</span></div>
+          <div class="data-card-value">Ameno</div>
+          <div class="data-card-label">La Niña enfraquece</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Menos procura para aquecimento previsto</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📉</span><span class="news-badge">YTD Change</span></div>
+          <div class="data-card-value negative">-42%</div>
+          <div class="negative">Queda expressiva do ano</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Maiores produtores US aumentam output</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Commodities Table -->
+    <section class="inner-section">
+      <h2>Outras Commodities Importantes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Commodity</th>
+            <th>Preço</th>
+            <th>Variação</th>
+            <th>Tendência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Cobre (Cu)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Metal industrial chave</span></td>
+            <td style="text-align:right;">$4.15/lb</td>
+            <td style="text-align:right;" class="positive">+1.8%</td>
+            <td style="color:var(--green);">↑ Alta</td>
+          </tr>
+          <tr>
+            <td><strong>Lítio (Li)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Para baterias EV</span></td>
+            <td style="text-align:right;">$15,800/ton</td>
+            <td style="text-align:right;" class="negative">-3.2%</td>
+            <td style="color:var(--red);">↓ Baixa</td>
+          </tr>
+          <tr>
+            <td><strong>Soja (SB)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Alimentos/grãos</span></td>
+            <td style="text-align:right;">$12.45/bushel</td>
+            <td style="text-align:right;" class="positive">+0.9%</td>
+            <td style="color:var(--green);">→ Estável</td>
+          </tr>
+          <tr>
+            <td><strong>Café (KC)</strong><br><span style="color:var(--text-muted);font-size:0.875rem;">Exportações brasileiras</span></td>
+            <td style="text-align:right;">$2.25/lb</td>
+            <td style="text-align:right;" class="negative">-5.8%</td>
+            <td style="color:var(--red);">↓ Queda</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Analysis Summary -->
+    <section class="inner-section">
+      <h2>Análise da Semana</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Ouro atinge novo recorde com tensões geopolíticas</h3><span class="news-badge">Destaque</span></div>
+          <p>Metais preciosos continuam a beneficiar de incertezas globais, compras maciças dos bancos centrais chineses e expectativas de cortes de taxas pelo Fed. O ouro rompeu barreiras históricas superando os $4,300/oz pela primeira vez.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Petróleo sob pressão com crescimento economia China fraco</h3><span class="news-badge">Demand</span></div>
+          <p>O petróleo enfrenta pressões devido à desaceleração económica chinesa — o maior importador mundial de crude. O aumento das reservas estratégicas americanas também contribuiu para queda de preços.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Gás natural em mínimos de 3 anos com temperaturas amenas</h3><span class="news-badge">Supply</span></div>
+          <p>Invernos amenos em todo o hemisfério norte combinados com produção elevada nos EUA pressionaram o preço do gás natural para níveis não vistos desde 2021. Armazéns europeus ao máximo.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>

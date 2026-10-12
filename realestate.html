@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate — Crónica PT Investimento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text">Crónica<span class="highlight">PT Investimento</span></span></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="macro.html" class="nav-link">Macro</a></li>
+        <li><a href="cripto.html" class="nav-link">Criptoativos</a></li>
+        <li><a href="commodities.html" class="nav-link">Commodities</a></li>
+        <li><a href="realestate.html" class="nav-link" style="color:var(--gold)">Real Estate</a></li>
+        <li><a href="alternativos.html" class="nav-link">Alternativos</a></li>
+        <li><a href="stocks.html" class="nav-link">Ações & ETFs</a></li>
+        <li><a href="cronica.html" class="nav-link">Crónica</a></li>
+        <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+      </ul>
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" data-lang="pt" onclick="switchLanguage('pt')" title="Português">🇵🇹 PT</button>
+          <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">🇬🇧 EN</button>
+        </div>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <h1>🏠 Real Estate Ibérico</h1>
+        <p>Mercado imobiliário em Portugal e Espanha — dados, preços e tendências</p>
+        <p class="last-updated">Última atualização: 2026-10-05 (atualização semanal automática)</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Sentiment -->
+    <section class="inner-section">
+      <h2>Sentimento do Mercado Imobiliário</h2>
+      <div class="data-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value negative">Neutral-Baixista</div>
+          <div class="data-card-label">Portugal — Índice de Confiança</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-fear" style="width:42%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Taxas altas + preços elevados = resfriamento</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value positive">Neutro-Leve Alta</div>
+          <div class="data-card-label">Espanha — Índice de Confiança</div>
+          <div class="sentiment-bar-bg"><div class="sentiment-bar-fill sent-neutral" style="width:55%"></div></div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Mercado mais resiliente que Portugal</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">3.2%</div>
+          <div class="data-card-label">Taxa Hipoteca Fixa (ES)</div>
+          <p class="positive" style="margin-top:0.5rem;">⬇️ Mais barato desde 2020</p>
+        </div>
+        <div class="data-card" style="text-align:center;">
+          <div class="data-card-value">4.1%</div>
+          <div class="data-card-label">Taxa Hipoteca Fixa (PT)</div>
+          <p class="negative" style="margin-top:0.5rem;">⬆️ Ainda acima da média europeia</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portugal Prices -->
+    <section class="inner-section">
+      <h2>🇵🇹 Preços de Imóveis em Portugal</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏙️</span><span class="news-badge">Lisboa</span></div>
+          <div class="data-card-value">€4,350/m²</div>
+          <div class="negative">+1.2% vs mês anterior</div>
+          <div class="data-card-label">Média nacional mais alta</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Preço continua alto mas estabilizou após queda Q2-Q3</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⛵</span><span class="news-badge">Porto</span></div>
+          <div class="data-card-value">€2,580/m²</div>
+          <div class="positive">+2.8% crescimento anual</div>
+          <div class="data-card-label">Em recuperação forte</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Investimento estrangeiro impulsiona revalorização</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌾</span><span class="news-badge">Interior Portugal</span></div>
+          <div class="data-card-value">€850/m²</div>
+          <div class="negative">-3.5% queda verificada</div>
+          <div class="data-card-label">Oportunidades de investimento</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Desertificação continua a afetar preços</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Média Nacional</span></div>
+          <div class="data-card-value">€1,920/m²</div>
+          <div class="negative">+0.8% YTD lento</div>
+          <div class="data-card-label">Arrefecimento generalizado</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Volume de transações caiu 15% face ao ano anterior</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spain Prices -->
+    <section class="inner-section">
+      <h2>🇪🇸 Preços de Imóveis na Espanha</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏰</span><span class="news-badge">Madrid</span></div>
+          <div class="data-card-value">€3,950/m²</div>
+          <div class="positive">+2.1% estabilidade forte</div>
+          <div class="data-card-label">Capital atrativa para investidores</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Mercado resiliente com procura constante</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">☀️</span><span class="news-badge">Barcelona</span></div>
+          <div class="data-card-value">€3,320/m²</div>
+          <div class="positive">+1.5% ligeira valorização</div>
+          <div class="data-card-label">Regulações de AL limitam oferta</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Nova lei de habitação impacta mercado de arrendamento</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🏖️</span><span class="news-badge">Costa del Sol</span></div>
+          <div class="data-card-value">€2,850/m²</div>
+          <div class="positive">+5.2% alta significativa</div>
+          <div class="data-card-label">Destaque internacional</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Expats e nômades digitais impulsionam demanda</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">📊</span><span class="news-badge">Média Nacional ES</span></div>
+          <div class="data-card-value">€2,180/m²</div>
+          <div class="positive">+1.8% crescimento moderado</div>
+          <div class="data-card-label">Mais acessível que Portugal</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Melhor relação preço/rendimento ibérica</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rent Market -->
+    <section class="inner-section">
+      <h2>🔑 Mercado de Arrendamento</h2>
+      <div class="news-list">
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Rendimentos médios em Lisboa sobem para 5.8% ao ano</h3><span class="news-badge">Rent Yield</span></div>
+          <p>A escassez de oferta de arrendamento tradicional mantém rendimentos em níveis historicamente altos. T2 no centro custa €1,400/mês com procura excessiva.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Espanha aprova teto máximo de rendas em zonas tensionadas</h3><span class="news-badge">Regulação</span></div>
+          <p>Nova legislação limita aumentos de renda a 0% em áreas com pressão imobiliária elevada. Barcelona, Madrid e Málaga são afetadas. Proprietários criticam medida.</p>
+        </article>
+        <article class="news-item fade-in">
+          <div class="news-item-header"><h3>Arrendamento de longa duração cresce 12% em Portugal</h3><span class="news-badge">Tendência</span></div>
+          <p>Programa State de incentivos a contratos permanentes está a ganhar tração. Fundos imobiliários começam a construir especificamente para arrendamento residencial.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Mortgage Rates -->
+    <section class="inner-section">
+      <h2>🏦 Taxas Hipotecárias Atuais</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>País</th>
+            <th>Tipo</th>
+            <th style="text-align:right;">Taxa Média</th>
+            <th style="text-align:right;">Variação</th>
+            <th>Tendência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Portugal</strong></td>
+            <td>Fixo (30 anos)</td>
+            <td style="text-align:right;"><strong>4.1%</strong></td>
+            <td style="text-align:right;" class="negative">↑ +0.3%</td>
+            <td style="color:var(--red);">↑ A subir</td>
+          </tr>
+          <tr>
+            <td><strong>Portugal</strong></td>
+            <td>Variável (EURIBOR)</td>
+            <td style="text-align:right;"><strong>3.6%</strong></td>
+            <td style="text-align:right;" class="negative">↑ +0.2%</td>
+            <td style="color:var(--red);">↑ Influenciado EURIBOR</td>
+          </tr>
+          <tr>
+            <td><strong>Espanha</strong></td>
+            <td>Fixo (30 anos)</td>
+            <td style="text-align:right;"><strong>3.2%</strong></td>
+            <td style="text-align:right;" class="positive">⬇️ -0.5%</td>
+            <td style="color:var(--green);">↓ A descer</td>
+          </tr>
+          <tr>
+            <td><strong>Espanha</strong></td>
+            <td>Variável (EURIBOR)</td>
+            <td style="text-align:right;"><strong>2.8%</strong></td>
+            <td style="text-align:right;" class="positive">⬇️ -0.4%</td>
+            <td style="color:var(--green);">✅ Mais competitiva</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="data-card" style="margin-top:2rem;border-left:4px solid var(--gold);">
+        <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">💡 Para o pequeno investidor</h3>
+        <p style="color:var(--text-secondary);font-size:0.875rem;line-height:1.7;">
+          Se estás a pensar comprar um imóvel para rentabilizar via arrendamento, a Espanha oferece condições significativamente melhores hoje. Taxas fixas abaixo de 3.5% + rendimentos brutos de 4-5% criam oportunidades interessantes. Em Portugal, os spreads mais altos podem comprometer rentabilidade.
+        </p>
+      </div>
+    </section>
+
+    <!-- Investment REITs -->
+    <section class="inner-section">
+      <h2>📊 Investir via REITs (SOCIMI)</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🇵🇹</span><span class="news-badge">Portugal</span></div>
+          <div class="data-card-value">3 SOCIMIs listadas</div>
+          <div class="data-card-label">Rendimentos 4-6% anuais</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Alternativa ao investimento direto sem gestão de inquilinos</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🇪🇸</span><span class="news-badge">Espanha</span></div>
+          <div class="data-card-value">15+ SOCIMIs listadas</div>
+          <div class="data-card-label">Rendimentos 3-5% anuais</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Maior liquidez e diversificação de ativos</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">🌍</span><span class="news-badge">ETFs Imobiliários</span></div>
+          <div class="data-card-value">VGNW / EPRT</div>
+          <div class="data-card-label">Diversificação global REITs</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Exposição a múltiplos mercados num único ticker</p>
+        </div>
+        <div class="data-card">
+          <div class="data-card-header"><span class="data-card-icon">⚠️</span><span class="news-badge">Fiscalidade</span></div>
+          <div class="data-card-value">28% IRS dividendos</div>
+          <div class="data-card-label">Portugal — tributação padrão</div>
+          <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;">Espanha: SOCIMI dividends têm tratamento favorável fiscal</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p><a href="index.html" style="color:var(--text-secondary);text-decoration:none;">← Voltar ao Início</a> | Feito com 💙 para o pequeno investidor português</p>
+      </div>
+    </div>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+  <div class="floating-btc" aria-hidden="true"><span class="coin">₿</span></div>
+
+</body>
+</html>
