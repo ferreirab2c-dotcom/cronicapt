@@ -1,119 +1,119 @@
 {
   "indices": {
     "psi20": {
-      "price": 9303.68,
-      "chg": -1.239327716463049
+      "price": 9468.47,
+      "chg": 1.6858741189648443
     },
     "ibex": {
-      "price": 19241.8,
-      "chg": -1.040927371658394
+      "price": 19326.3,
+      "chg": 0.20999906667081483
     },
     "gspc": {
-      "price": 7804.46,
-      "chg": 0.3924645772097867
+      "price": 7659.44,
+      "chg": -1.9471192620149211
     },
     "ixic": {
-      "price": 27267.072,
-      "chg": -0.7651331225654956
+      "price": 26140.033,
+      "chg": -4.480484481387052
     },
     "stoxx": {
-      "price": 6199.05,
-      "chg": -1.166730174116692
+      "price": 6204.23,
+      "chg": 0.0487001730307396
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 173.3,
-      "chg": 0.23134759976865568
+      "price": 170.44,
+      "chg": -1.3999768598866225
     },
     "IWDA.AS": {
-      "price": 132.14,
-      "chg": 0.2047470994160778
+      "price": 130.55,
+      "chg": -1.292907908664736
     },
     "EQQQ.DE": {
-      "price": 670.8,
-      "chg": -0.6663705019991115
+      "price": 641.9,
+      "chg": -4.564377044305687
     },
     "SUSW.L": {
-      "price": 14.38,
-      "chg": 0.7355516637478138
+      "price": 14.2,
+      "chg": -1.0797631487286738
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 225.43,
-      "chg": -5.638342402678945
+      "price": 214.13,
+      "chg": -6.60764131193301
     },
     "AMD": {
-      "price": 588.52,
-      "chg": -6.842896715472896
+      "price": 528.75,
+      "chg": -13.048840651208687
     },
     "META": {
-      "price": 742.735,
-      "chg": 0.11254886103248907
+      "price": 709.325,
+      "chg": -1.3003186441621208
     },
     "AAPL": {
-      "price": 341.315,
-      "chg": 2.5308660518489625
+      "price": 343.46,
+      "chg": 2.025903041825093
     },
     "TSLA": {
-      "price": 380.57,
-      "chg": 0.4858342354711734
+      "price": 354.72,
+      "chg": -7.311209824928132
     }
   },
   "commodities": {
     "gold": {
-      "price": 4190,
-      "chg": 1.1906199434878206
+      "price": 4181.1,
+      "chg": 0.09096785004668523
     },
     "silver": {
-      "price": 60.69,
-      "chg": 1.3205562697206912
+      "price": 57.305,
+      "chg": -3.1372018728554307
     },
     "wti": {
-      "price": 93.91,
-      "chg": 6.377435432714086
+      "price": 99.02,
+      "chg": 5.183768854896957
     },
     "brent": {
-      "price": 107.07,
-      "chg": 6.856287425149691
+      "price": 109.86,
+      "chg": 3.945500993471475
     },
     "gas": {
-      "price": 3.147,
-      "chg": -1.748360911645334
+      "price": 3.116,
+      "chg": -5.086810843740476
     },
     "copper": {
-      "price": 6.756,
-      "chg": 2.425712553062464
+      "price": 6.5735,
+      "chg": -1.5648397723869394
     },
     "coffee": {
-      "price": 287.35,
-      "chg": -1.8278100444140644
+      "price": 305.55,
+      "chg": 4.390160573966527
     },
     "wheat": {
-      "price": 670.5,
-      "chg": -2.3306627822286963
+      "price": 660.5,
+      "chg": -1.3074336944340679
     },
     "platina": {
-      "price": 1693.1,
-      "chg": 3.667646338476602
+      "price": 1633.1,
+      "chg": -1.46615180403042
     }
   },
   "news": {
-    "generated": "2026-10-12T14:39:42.649Z",
+    "generated": "2026-10-18T21:15:38.676Z",
     "buckets": {
       "resumo": [
         {
-          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "t": "Chega admite défice para financiar plano de emergência na habitação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
         },
         {
-          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
         },
         {
           "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -128,54 +128,54 @@
           "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         },
         {
-          "t": "Meeting of 9-10 September 2026",
+          "t": "Christine Lagarde: IMFC Statement",
           "src": "BCE",
-          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
         },
         {
-          "t": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
+          "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 14:07:00 +0000",
-          "l": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 18 Oct 2026 13:54:00 +0000",
+          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "macro": [
         {
-          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "t": "Chega admite défice para financiar plano de emergência na habitação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
         },
         {
-          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
         },
         {
-          "t": "União Europeia adota programa de 115 milhões de euros para inovação rápida na defesa",
+          "t": "Quem são os novos PIIGS?",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 10:53:40 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/uniao-europeia-adota-programa-de-115-milhoes-de-euros-para-inovacao-rapida-na-defesa/"
+          "d": "Sun, 18 Oct 2026 08:50:06 +0000",
+          "l": "https://eco.sapo.pt/opiniao/quem-sao-os-novos-piigs/"
         },
         {
-          "t": "Máximo dos Santos deixa administração do Banco de Portugal no final do mês",
+          "t": "Vem aí uma vaga eleitoral decisiva. O que está em jogo para a União Europeia?",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 10:21:37 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/maximo-dos-santos-deixa-administracao-do-banco-de-portugal-no-final-do-mes/"
+          "d": "Sun, 18 Oct 2026 08:45:03 +0000",
+          "l": "https://eco.sapo.pt/especiais/vem-ai-uma-vaga-eleitoral-decisiva-o-que-esta-em-jogo-para-a-uniao-europeia/"
         },
         {
-          "t": "Meeting of 9-10 September 2026",
+          "t": "Christine Lagarde: IMFC Statement",
           "src": "BCE",
-          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
         },
         {
-          "t": "Piero Cipollone: Interview with Corriere della Sera",
+          "t": "Frank Elderson: Ensuring resilience in the face of uncertainty",
           "src": "BCE",
-          "d": "Thu, 08 Oct 2026 08:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html"
+          "d": "Wed, 14 Oct 2026 02:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
         }
       ],
       "stocks": [
@@ -210,10 +210,10 @@
           "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
         },
         {
-          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
+          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
+          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
         }
       ],
       "commodities": [
@@ -240,119 +240,107 @@
           "src": "WSJ",
           "d": "Mon, 27 Jan 2025 06:57:00 -0500",
           "l": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main"
-        },
-        {
-          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
-          "src": "ECO",
-          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
         }
       ],
       "cripto": [
         {
-          "t": "XRP treasury Evernorth’s shares rise 5% at Nasdaq opening print",
-          "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 14:18:49 +0000",
-          "l": "https://cointelegraph.com/news/xrp-treasury-evernorth-rise-nasdaq-opening?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "t": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
-          "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 14:07:00 +0000",
-          "l": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
           "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 12:46:51 +0000",
+          "d": "Sun, 18 Oct 2026 13:54:00 +0000",
           "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Strategy adds 250 Bitcoin as holdings reach 848,250 BTC",
+          "t": "Most Americans polled oppose betting on elections: Reuters",
           "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 12:31:51 +0000",
-          "l": "https://cointelegraph.com/news/michael-saylor-strategy-250-btc-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 18 Oct 2026 13:48:00 +0000",
+          "l": "https://cointelegraph.com/news/most-americans-polled-oppose-betting-on-elections-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Australia proposes leverage caps for crypto-settled derivatives",
+          "t": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
           "src": "Cointelegraph",
-          "d": "Mon, 12 Oct 2026 11:41:58 +0000",
-          "l": "https://cointelegraph.com/news/australia-asic-crypto-settled-cfd-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 18 Oct 2026 10:46:00 +0000",
+          "l": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Chinese suspect in $75M international crime network arrested in Bangkok",
+          "src": "Cointelegraph",
+          "d": "Sun, 18 Oct 2026 09:14:26 +0000",
+          "l": "https://cointelegraph.com/news/chinese-suspect-in-75m-international-crime-network-arrested-in-bangkok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Tether backs AIsa as strategic investor, completing seed extension round",
+          "src": "Cointelegraph",
+          "d": "Sun, 18 Oct 2026 06:29:00 +0000",
+          "l": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "realestate": [
         {
-          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "t": "Chega admite défice para financiar plano de emergência na habitação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
         },
         {
-          "t": "Agricultores exigem 140 milhões ao Governo para recuperar competitividade",
+          "t": "Venda de 5% da TAP a trabalhadores avança em janeiro",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 12:30:51 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/agricultores-exigem-140-milhoes-ao-governo-para-recuperar-competitividade/"
+          "d": "Sun, 18 Oct 2026 12:31:26 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/venda-de-5-da-tap-a-trabalhadores-avanca-em-janeiro/"
         },
         {
-          "t": "Câmara do Porto manda retirar acampamento de protesto contra preços da habitação",
+          "t": "Casa Relvas promove produção do azeite alentejano até 15 de dezembro",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 10:55:52 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/camara-do-porto-manda-retirar-acampamento-de-protesto-contra-precos-da-habitacao/"
+          "d": "Sun, 18 Oct 2026 10:12:16 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/casa-relvas-promove-producao-do-azeite-alentejano-ate-15-de-dezembro/"
         },
         {
-          "t": "Euribor mantém-se a três meses e desce a seis e a 12 meses",
+          "t": "Cupra Terramar: Um desportivo disfarçado de carro de família",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 10:28:21 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/euribor-mantem-se-a-tres-meses-e-desce-a-seis-e-a-12-meses-2/"
+          "d": "Sun, 18 Oct 2026 09:45:45 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/cupra-terramar-um-desportivo-disfarcado-de-carro-de-familia/"
         }
       ],
       "alternativos": [
         {
-          "t": "O dinheiro das nossas pensões está a trabalhar para o patrão errado",
+          "t": "Chega admite défice para financiar plano de emergência na habitação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 09:37:24 +0000",
-          "l": "https://eco.sapo.pt/opiniao/o-dinheiro-das-nossas-pensoes-esta-a-trabalhar-para-o-patrao-errado/"
+          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
         },
         {
-          "t": "Meeting of 9-10 September 2026",
+          "t": "Christine Lagarde: IMFC Statement",
           "src": "BCE",
-          "d": "Thu, 08 Oct 2026 13:30:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
         }
       ],
       "geral": [
         {
-          "t": "Cuatrecasas assessora Hope Care no fecho de ronda de financiamento de seis milhões de euros",
+          "t": "Chega admite défice para financiar plano de emergência na habitação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 13:08:47 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/cuatrecasas-assessora-hope-care-no-fecho-de-ronda-de-financiamento-de-seis-milhoes-de-euros/"
+          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
         },
         {
-          "t": "NATO promete destruir “tudo e qualquer coisa” que sustente um ataque russo",
+          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 12:57:48 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/nato-promete-destruir-tudo-e-qualquer-coisa-que-sustente-um-ataque-russo/"
+          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
         },
         {
-          "t": "União Europeia adota programa de 115 milhões de euros para inovação rápida na defesa",
+          "t": "Quem são os novos PIIGS?",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 10:53:40 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/uniao-europeia-adota-programa-de-115-milhoes-de-euros-para-inovacao-rapida-na-defesa/"
+          "d": "Sun, 18 Oct 2026 08:50:06 +0000",
+          "l": "https://eco.sapo.pt/opiniao/quem-sao-os-novos-piigs/"
         },
         {
-          "t": "Boa Hotels prepara resort de luxo no Douro e abertura na Grécia",
+          "t": "Santalucía alia-se à Zurich por dez anos para seguros automóvel, funeral e de animais de estimação",
           "src": "ECO",
-          "d": "Mon, 12 Oct 2026 14:32:15 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/boa-hotels-prepara-resort-de-luxo-no-douro-e-abertura-na-grecia/"
-        },
-        {
-          "t": "Meo e Nokia aceleram a evolução para redes autónomas e nativas de IA",
-          "src": "ECO",
-          "d": "Mon, 12 Oct 2026 13:20:20 +0000",
-          "l": "https://eco.sapo.pt/2026/10/12/meo-e-nokia-aceleram-a-evolucao-para-redes-autonomas-e-nativas-de-ia/"
+          "d": "Sun, 18 Oct 2026 16:19:47 +0000",
+          "l": "https://eco.sapo.pt/2026/10/18/santalucia-alia-se-a-zurich-por-dez-anos-para-seguros-automovel-funeral-e-de-animais-de-estimacao/"
         }
       ]
     }
   },
-  "updated": "2026-10-12T14:39:42.650Z"
+  "updated": "2026-10-18T21:15:38.677Z"
 }
