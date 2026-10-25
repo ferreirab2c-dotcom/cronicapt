@@ -1,119 +1,119 @@
 {
   "indices": {
     "psi20": {
-      "price": 9468.47,
-      "chg": 1.6858741189648443
+      "price": 9244.62,
+      "chg": -1.5920495455696984
     },
     "ibex": {
-      "price": 19326.3,
-      "chg": 0.20999906667081483
+      "price": 18989.8,
+      "chg": -0.25998854999921217
     },
     "gspc": {
-      "price": 7659.44,
-      "chg": -1.9471192620149211
+      "price": 7623.68,
+      "chg": -0.466874862914251
     },
     "ixic": {
-      "price": 26140.033,
-      "chg": -4.480484481387052
+      "price": 25955.342,
+      "chg": -0.7065332365724075
     },
     "stoxx": {
-      "price": 6204.23,
-      "chg": 0.0487001730307396
+      "price": 6068.22,
+      "chg": -1.246417708602872
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 170.44,
-      "chg": -1.3999768598866225
+      "price": 169.3,
+      "chg": -0.6688570758037939
     },
     "IWDA.AS": {
-      "price": 130.55,
-      "chg": -1.292907908664736
+      "price": 129.89,
+      "chg": -0.5969235478686777
     },
     "EQQQ.DE": {
-      "price": 641.9,
-      "chg": -4.564377044305687
+      "price": 635.3,
+      "chg": -1.0281975385574114
     },
     "SUSW.L": {
-      "price": 14.2,
-      "chg": -1.0797631487286738
+      "price": 14.255,
+      "chg": 0.38732394366198236
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 214.13,
-      "chg": -6.60764131193301
+      "price": 210.96,
+      "chg": -1.4804090972773492
     },
     "AMD": {
-      "price": 528.75,
-      "chg": -13.048840651208687
+      "price": 516.79,
+      "chg": -2.2619385342789666
     },
     "META": {
-      "price": 709.325,
-      "chg": -1.3003186441621208
+      "price": 642.62,
+      "chg": -9.404649457939186
     },
     "AAPL": {
-      "price": 343.46,
-      "chg": 2.025903041825093
+      "price": 347.725,
+      "chg": 1.241774879170804
     },
     "TSLA": {
-      "price": 354.72,
-      "chg": -7.311209824928132
+      "price": 372.22,
+      "chg": 4.933468651330627
     }
   },
   "commodities": {
     "gold": {
-      "price": 4181.1,
-      "chg": 0.09096785004668523
+      "price": 4007.9,
+      "chg": -3.2515811326220314
     },
     "silver": {
-      "price": 57.305,
-      "chg": -3.1372018728554307
+      "price": 53.949,
+      "chg": -6.510588153744854
     },
     "wti": {
-      "price": 99.02,
-      "chg": 5.183768854896957
+      "price": 103.27,
+      "chg": 1.4539738677669611
     },
     "brent": {
-      "price": 109.86,
-      "chg": 3.945500993471475
+      "price": 111.7,
+      "chg": 2.674878205717434
     },
     "gas": {
-      "price": 3.116,
-      "chg": -5.086810843740476
+      "price": 3.05,
+      "chg": 2.9362132973337745
     },
     "copper": {
-      "price": 6.5735,
-      "chg": -1.5648397723869394
+      "price": 6.5075,
+      "chg": -0.8984999619279568
     },
     "coffee": {
-      "price": 305.55,
-      "chg": 4.390160573966527
+      "price": 306,
+      "chg": -1.7025377449405754
     },
     "wheat": {
-      "price": 660.5,
-      "chg": -1.3074336944340679
+      "price": 625,
+      "chg": -2.837155071900505
     },
     "platina": {
-      "price": 1633.1,
-      "chg": -1.46615180403042
+      "price": 1562.4,
+      "chg": -5.1135673509048845
     }
   },
   "news": {
-    "generated": "2026-10-18T21:15:38.676Z",
+    "generated": "2026-10-25T21:17:03.663Z",
     "buckets": {
       "resumo": [
         {
-          "t": "Chega admite défice para financiar plano de emergência na habitação",
+          "t": "Trump apoia-se na economia para tentar reverter sondagens",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
+          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
         },
         {
-          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
+          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
+          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
         },
         {
           "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -128,54 +128,54 @@
           "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         },
         {
-          "t": "Christine Lagarde: IMFC Statement",
+          "t": "Piero Cipollone: Interview with Milano Finanza",
           "src": "BCE",
-          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
         },
         {
-          "t": "Here’s what happened in crypto today",
+          "t": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 13:54:00 +0000",
-          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 25 Oct 2026 11:42:00 +0000",
+          "l": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "macro": [
         {
-          "t": "Chega admite défice para financiar plano de emergência na habitação",
+          "t": "Trump apoia-se na economia para tentar reverter sondagens",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
+          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
         },
         {
-          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
+          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
+          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
         },
         {
-          "t": "Quem são os novos PIIGS?",
+          "t": "Audi investe 3.6 mil milhões na sua primeira fábrica nos EUA para SUV premium",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 08:50:06 +0000",
-          "l": "https://eco.sapo.pt/opiniao/quem-sao-os-novos-piigs/"
+          "d": "Sun, 25 Oct 2026 10:37:58 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/audi-investe-3-6-mil-milhoes-na-sua-primeira-fabrica-nos-eua-para-suv-premium/"
         },
         {
-          "t": "Vem aí uma vaga eleitoral decisiva. O que está em jogo para a União Europeia?",
+          "t": "Luxo europeu perde 251 mil milhões em bolsa em 2026",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 08:45:03 +0000",
-          "l": "https://eco.sapo.pt/especiais/vem-ai-uma-vaga-eleitoral-decisiva-o-que-esta-em-jogo-para-a-uniao-europeia/"
+          "d": "Sun, 25 Oct 2026 10:08:04 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/luxo-europeu-perde-251-mil-milhoes-em-bolsa-em-2026/"
         },
         {
-          "t": "Christine Lagarde: IMFC Statement",
+          "t": "Piero Cipollone: Interview with Milano Finanza",
           "src": "BCE",
-          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
         },
         {
-          "t": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+          "t": "ECB Consumer Expectations Survey results – September 2026",
           "src": "BCE",
-          "d": "Wed, 14 Oct 2026 02:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
+          "d": "Fri, 23 Oct 2026 10:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html"
         }
       ],
       "stocks": [
@@ -210,10 +210,10 @@
           "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
         },
         {
-          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
+          "t": "Negócio entre Galp e Moeve em risco de cair",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
+          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
         }
       ],
       "commodities": [
@@ -240,107 +240,131 @@
           "src": "WSJ",
           "d": "Mon, 27 Jan 2025 06:57:00 -0500",
           "l": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main"
+        },
+        {
+          "t": "Negócio entre Galp e Moeve em risco de cair",
+          "src": "ECO",
+          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
         }
       ],
       "cripto": [
         {
-          "t": "Here’s what happened in crypto today",
+          "t": "ECB official sees digital euro as key to protecting EU ‘sovereignty’",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 13:54:00 +0000",
-          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 25 Oct 2026 15:11:00 +0000",
+          "l": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Most Americans polled oppose betting on elections: Reuters",
+          "t": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 13:48:00 +0000",
-          "l": "https://cointelegraph.com/news/most-americans-polled-oppose-betting-on-elections-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 25 Oct 2026 11:42:00 +0000",
+          "l": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Cysic crypto bridge halted after unauthorized mint of 10M CYS",
+          "t": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 10:46:00 +0000",
-          "l": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Fri, 23 Oct 2026 21:32:16 +0000",
+          "l": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Chinese suspect in $75M international crime network arrested in Bangkok",
+          "t": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 09:14:26 +0000",
-          "l": "https://cointelegraph.com/news/chinese-suspect-in-75m-international-crime-network-arrested-in-bangkok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Fri, 23 Oct 2026 20:54:17 +0000",
+          "l": "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Tether backs AIsa as strategic investor, completing seed extension round",
+          "t": "Initia halts blockchain after exploit reportedly drains over $2.6M",
           "src": "Cointelegraph",
-          "d": "Sun, 18 Oct 2026 06:29:00 +0000",
-          "l": "https://cointelegraph.com/news/tether-backs-aisa-as-strategic-investor-completing-seed-extension-round?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Fri, 23 Oct 2026 18:39:02 +0000",
+          "l": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "realestate": [
         {
-          "t": "Chega admite défice para financiar plano de emergência na habitação",
+          "t": "Lesados de burla imobiliária querem seguros-caução para proteger compradores",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
+          "d": "Sun, 25 Oct 2026 17:14:40 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/lesados-de-burla-imobiliaria-querem-seguros-caucao-para-proteger-compradores/"
         },
         {
-          "t": "Venda de 5% da TAP a trabalhadores avança em janeiro",
+          "t": "APS com curso de inteligência artificial aplicada aos seguros",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 12:31:26 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/venda-de-5-da-tap-a-trabalhadores-avanca-em-janeiro/"
+          "d": "Sun, 25 Oct 2026 15:56:08 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/aps-com-curso-de-inteligencia-artificial-aplicada-aos-seguros/"
         },
         {
-          "t": "Casa Relvas promove produção do azeite alentejano até 15 de dezembro",
+          "t": "A grua e o banco",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 10:12:16 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/casa-relvas-promove-producao-do-azeite-alentejano-ate-15-de-dezembro/"
+          "d": "Sun, 25 Oct 2026 14:52:04 +0000",
+          "l": "https://eco.sapo.pt/especiais/a-grua-e-o-banco/"
         },
         {
-          "t": "Cupra Terramar: Um desportivo disfarçado de carro de família",
+          "t": "Governo promete plano de integração para breve e diz que país não se preparou para imigrantes",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 09:45:45 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/cupra-terramar-um-desportivo-disfarcado-de-carro-de-familia/"
+          "d": "Sun, 25 Oct 2026 07:40:56 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/governo-promete-plano-de-integracao-para-breve-e-diz-que-pais-nao-se-preparou-para-imigrantes/"
         }
       ],
       "alternativos": [
         {
-          "t": "Chega admite défice para financiar plano de emergência na habitação",
+          "t": "Trump apoia-se na economia para tentar reverter sondagens",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
+          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
         },
         {
-          "t": "Christine Lagarde: IMFC Statement",
+          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
+          "src": "ECO",
+          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
+        },
+        {
+          "t": "João Silva Lopes, governante responsável pelo setor, vai abrir a 7ª Conferência ECOseguros",
+          "src": "ECO",
+          "d": "Sun, 25 Oct 2026 17:23:42 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/joao-silva-lopes-governante-responsavel-pelo-setor-vai-abrir-a-7a-conferencia-ecoseguros/"
+        },
+        {
+          "t": "Piero Cipollone: Interview with Milano Finanza",
           "src": "BCE",
-          "d": "Sat, 17 Oct 2026 07:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
         }
       ],
       "geral": [
         {
-          "t": "Chega admite défice para financiar plano de emergência na habitação",
+          "t": "Trump apoia-se na economia para tentar reverter sondagens",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 17:44:29 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/chega-admite-defice-para-financiar-plano-de-emergencia-na-habitacao/"
+          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
         },
         {
-          "t": "ECO da Semana: Crescimento da China, ‘earnings season’ e notação de França",
+          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 16:19:41 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/eco-da-semana-crescimento-da-china-earnings-season-e-notacao-de-franca/"
+          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
         },
         {
-          "t": "Quem são os novos PIIGS?",
+          "t": "Audi investe 3.6 mil milhões na sua primeira fábrica nos EUA para SUV premium",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 08:50:06 +0000",
-          "l": "https://eco.sapo.pt/opiniao/quem-sao-os-novos-piigs/"
+          "d": "Sun, 25 Oct 2026 10:37:58 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/audi-investe-3-6-mil-milhoes-na-sua-primeira-fabrica-nos-eua-para-suv-premium/"
         },
         {
-          "t": "Santalucía alia-se à Zurich por dez anos para seguros automóvel, funeral e de animais de estimação",
+          "t": "Negócio entre Galp e Moeve em risco de cair",
           "src": "ECO",
-          "d": "Sun, 18 Oct 2026 16:19:47 +0000",
-          "l": "https://eco.sapo.pt/2026/10/18/santalucia-alia-se-a-zurich-por-dez-anos-para-seguros-automovel-funeral-e-de-animais-de-estimacao/"
+          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
+        },
+        {
+          "t": "Zelensky confirma reunião com Rússia e EUA em novembro com vista à paz",
+          "src": "ECO",
+          "d": "Sun, 25 Oct 2026 20:28:21 +0000",
+          "l": "https://eco.sapo.pt/2026/10/25/zelensky-confirma-reuniao-com-russia-e-eua-em-novembro-com-vista-a-paz/"
         }
       ]
     }
   },
-  "updated": "2026-10-18T21:15:38.677Z"
+  "updated": "2026-10-25T21:17:03.663Z"
 }
