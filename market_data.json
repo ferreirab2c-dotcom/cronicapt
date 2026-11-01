@@ -1,119 +1,119 @@
 {
   "indices": {
     "psi20": {
-      "price": 9244.62,
-      "chg": -1.5920495455696984
+      "price": 9276.13,
+      "chg": 1.0941908709170785
     },
     "ibex": {
-      "price": 18989.8,
-      "chg": -0.25998854999921217
+      "price": 18652.9,
+      "chg": -1.9986024493913186
     },
     "gspc": {
-      "price": 7623.68,
-      "chg": -0.466874862914251
+      "price": 7580.07,
+      "chg": -0.5720334536601822
     },
     "ixic": {
-      "price": 25955.342,
-      "chg": -0.7065332365724075
+      "price": 25436.998,
+      "chg": -1.9970534001866305
     },
     "stoxx": {
-      "price": 6068.22,
-      "chg": -1.246417708602872
+      "price": 6131.31,
+      "chg": 0.24655711116162798
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 169.3,
-      "chg": -0.6688570758037939
+      "price": 168.9,
+      "chg": -0.23626698168931226
     },
     "IWDA.AS": {
-      "price": 129.89,
-      "chg": -0.5969235478686777
+      "price": 129.7,
+      "chg": -0.635869148854679
     },
     "EQQQ.DE": {
-      "price": 635.3,
-      "chg": -1.0281975385574114
+      "price": 623.4,
+      "chg": -1.8731308043444008
     },
     "SUSW.L": {
-      "price": 14.255,
-      "chg": 0.38732394366198236
+      "price": 14.3,
+      "chg": 0.3156787092248329
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 210.96,
-      "chg": -1.4804090972773492
+      "price": 204.64,
+      "chg": -2.995828593098228
     },
     "AMD": {
-      "price": 516.79,
-      "chg": -2.2619385342789666
+      "price": 504.8,
+      "chg": -2.320091333036621
     },
     "META": {
-      "price": 642.62,
-      "chg": -9.404649457939186
+      "price": 614.99,
+      "chg": -4.299586069527869
     },
     "AAPL": {
-      "price": 347.725,
-      "chg": 1.241774879170804
+      "price": 344.63,
+      "chg": -0.891496275846209
     },
     "TSLA": {
-      "price": 372.22,
-      "chg": 4.933468651330627
+      "price": 399.81,
+      "chg": 7.412283058406312
     }
   },
   "commodities": {
     "gold": {
-      "price": 4007.9,
-      "chg": -3.2515811326220314
+      "price": 3898.9,
+      "chg": -4.312079713346091
     },
     "silver": {
-      "price": 53.949,
-      "chg": -6.510588153744854
+      "price": 49.276,
+      "chg": -9.240601919216097
     },
     "wti": {
-      "price": 103.27,
-      "chg": 1.4539738677669611
+      "price": 104.12,
+      "chg": 4.224224224224223
     },
     "brent": {
-      "price": 111.7,
-      "chg": 2.674878205717434
+      "price": 113.43,
+      "chg": -0.39515279241305645
     },
     "gas": {
-      "price": 3.05,
-      "chg": 2.9362132973337745
+      "price": 2.898,
+      "chg": 7.452725250278089
     },
     "copper": {
-      "price": 6.5075,
-      "chg": -0.8984999619279568
+      "price": 6.482,
+      "chg": -2.1141649048625744
     },
     "coffee": {
-      "price": 306,
-      "chg": -1.7025377449405754
+      "price": 287.15,
+      "chg": -2.2468085106383056
     },
     "wheat": {
-      "price": 625,
-      "chg": -2.837155071900505
+      "price": 603.5,
+      "chg": -1.1061040557148711
     },
     "platina": {
-      "price": 1562.4,
-      "chg": -5.1135673509048845
+      "price": 1436,
+      "chg": -6.449511400651466
     }
   },
   "news": {
-    "generated": "2026-10-25T21:17:03.663Z",
+    "generated": "2026-11-01T21:26:26.674Z",
     "buckets": {
       "resumo": [
         {
-          "t": "Trump apoia-se na economia para tentar reverter sondagens",
+          "t": "As três contas de William Nordhaus",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
+          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
+          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
         },
         {
-          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
+          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
+          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
         },
         {
           "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -128,54 +128,54 @@
           "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         },
         {
-          "t": "Piero Cipollone: Interview with Milano Finanza",
+          "t": "Philip R. Lane: AI adoption in Europe",
           "src": "BCE",
-          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
+          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
         },
         {
-          "t": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+          "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Sun, 25 Oct 2026 11:42:00 +0000",
-          "l": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 01 Nov 2026 14:17:00 +0000",
+          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "macro": [
         {
-          "t": "Trump apoia-se na economia para tentar reverter sondagens",
+          "t": "As três contas de William Nordhaus",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
+          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
+          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
         },
         {
-          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
+          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
+          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
         },
         {
-          "t": "Audi investe 3.6 mil milhões na sua primeira fábrica nos EUA para SUV premium",
+          "t": "Herdeiro da Ray-Ban rejeita oferta de 3,5 mil milhões",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 10:37:58 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/audi-investe-3-6-mil-milhoes-na-sua-primeira-fabrica-nos-eua-para-suv-premium/"
+          "d": "Sun, 01 Nov 2026 13:46:39 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/herdeiro-da-ray-ban-rejeita-oferta-de-35-mil-milhoes/"
         },
         {
-          "t": "Luxo europeu perde 251 mil milhões em bolsa em 2026",
+          "t": "Economia Azul puxa corretora de seguros Howden a lançar operação na Madeira",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 10:08:04 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/luxo-europeu-perde-251-mil-milhoes-em-bolsa-em-2026/"
+          "d": "Sun, 01 Nov 2026 13:42:13 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/economia-azul-puxa-corretora-de-seguros-howden-a-lancar-operacao-na-madeira/"
         },
         {
-          "t": "Piero Cipollone: Interview with Milano Finanza",
+          "t": "Philip R. Lane: AI adoption in Europe",
           "src": "BCE",
-          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
+          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
         },
         {
-          "t": "ECB Consumer Expectations Survey results – September 2026",
+          "t": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
           "src": "BCE",
-          "d": "Fri, 23 Oct 2026 10:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html"
+          "d": "Fri, 30 Oct 2026 15:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html"
         }
       ],
       "stocks": [
@@ -210,10 +210,10 @@
           "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
         },
         {
-          "t": "Negócio entre Galp e Moeve em risco de cair",
+          "t": "As três contas de William Nordhaus",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
+          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
+          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
         }
       ],
       "commodities": [
@@ -242,129 +242,111 @@
           "l": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main"
         },
         {
-          "t": "Negócio entre Galp e Moeve em risco de cair",
+          "t": "“Estado não deve ser o garante de tudo e de todos”, avisa João Silva Lopes",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
+          "d": "Sun, 01 Nov 2026 18:31:45 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/estado-nao-deve-ser-o-garante-de-tudo-e-de-todos-avisa-joao-silva-lopes/"
         }
       ],
       "cripto": [
         {
-          "t": "ECB official sees digital euro as key to protecting EU ‘sovereignty’",
+          "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Sun, 25 Oct 2026 15:11:00 +0000",
-          "l": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 01 Nov 2026 14:17:00 +0000",
+          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+          "t": "DeepSeek developing AI agent requiring less human input: Report",
           "src": "Cointelegraph",
-          "d": "Sun, 25 Oct 2026 11:42:00 +0000",
-          "l": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 01 Nov 2026 13:40:33 +0000",
+          "l": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report",
+          "t": "Binance says phase one of withdrawals opens after $6.3B hack",
           "src": "Cointelegraph",
-          "d": "Fri, 23 Oct 2026 21:32:16 +0000",
-          "l": "https://cointelegraph.com/news/nasdaq-companies-object-tokenized-stock-listings-okx-ice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 01 Nov 2026 09:38:18 +0000",
+          "l": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
+          "t": "FBI blames North Korea for record $6.3B Binance hack",
           "src": "Cointelegraph",
-          "d": "Fri, 23 Oct 2026 20:54:17 +0000",
-          "l": "https://cointelegraph.com/news/irs-plans-lower-penalties-for-crypto-tax-disclosures-forbes-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 01 Nov 2026 07:44:38 +0000",
+          "l": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Initia halts blockchain after exploit reportedly drains over $2.6M",
+          "t": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
           "src": "Cointelegraph",
-          "d": "Fri, 23 Oct 2026 18:39:02 +0000",
-          "l": "https://cointelegraph.com/news/initia-halts-blockchain-exploit-drained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sat, 31 Oct 2026 15:36:01 +0000",
+          "l": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "realestate": [
         {
-          "t": "Lesados de burla imobiliária querem seguros-caução para proteger compradores",
+          "t": "Grupo Mais constrói mais de 700 fogos para arrendamento",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 17:14:40 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/lesados-de-burla-imobiliaria-querem-seguros-caucao-para-proteger-compradores/"
+          "d": "Sun, 01 Nov 2026 17:38:50 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/grupo-mais-constroi-mais-de-700-fogos-para-arrendamento/"
         },
         {
-          "t": "APS com curso de inteligência artificial aplicada aos seguros",
+          "t": "Galp move ação de 523 mil euros contra ex-gestor e família",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 15:56:08 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/aps-com-curso-de-inteligencia-artificial-aplicada-aos-seguros/"
+          "d": "Sun, 01 Nov 2026 11:30:25 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/galp-move-acao-de-523-mil-euros-contra-ex-gestor-e-familia/"
         },
         {
-          "t": "A grua e o banco",
+          "t": "Escola 42 de Santa Clara ‘sobrevoa’ o Porto com drones e robôs humanoides",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 14:52:04 +0000",
-          "l": "https://eco.sapo.pt/especiais/a-grua-e-o-banco/"
+          "d": "Sun, 01 Nov 2026 08:38:53 +0000",
+          "l": "https://eco.sapo.pt/reportagem/escola-42-de-santa-clara-sobrevoa-o-porto-com-drones-e-robos-humanoides/"
         },
         {
-          "t": "Governo promete plano de integração para breve e diz que país não se preparou para imigrantes",
+          "t": "Governo disponível para reunir com promotores das acampadas",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 07:40:56 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/governo-promete-plano-de-integracao-para-breve-e-diz-que-pais-nao-se-preparou-para-imigrantes/"
+          "d": "Sat, 31 Oct 2026 20:38:32 +0000",
+          "l": "https://eco.sapo.pt/2026/10/31/depois-das-pessoas-as-tendas-regressaram-as-pracas/"
         }
       ],
       "alternativos": [
         {
-          "t": "Trump apoia-se na economia para tentar reverter sondagens",
+          "t": "Empresas de IA precisam dos media mas com remuneração justa",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
+          "d": "Sun, 01 Nov 2026 10:33:01 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/empresas-de-ia-precisam-dos-media-mas-com-remuneracao-justa/"
         },
         {
-          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
-          "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
-        },
-        {
-          "t": "João Silva Lopes, governante responsável pelo setor, vai abrir a 7ª Conferência ECOseguros",
-          "src": "ECO",
-          "d": "Sun, 25 Oct 2026 17:23:42 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/joao-silva-lopes-governante-responsavel-pelo-setor-vai-abrir-a-7a-conferencia-ecoseguros/"
-        },
-        {
-          "t": "Piero Cipollone: Interview with Milano Finanza",
+          "t": "Philip R. Lane: AI adoption in Europe",
           "src": "BCE",
-          "d": "Sat, 24 Oct 2026 08:00:00 +0200",
-          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
+          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
         }
       ],
       "geral": [
         {
-          "t": "Trump apoia-se na economia para tentar reverter sondagens",
+          "t": "As três contas de William Nordhaus",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:23:35 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/trump-apoia-se-na-economia-para-tentar-reverter-sondagens/"
+          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
+          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
         },
         {
-          "t": "ECO da Semana: Resultados, nervos de aço nos juros e o Orçamento do Estado",
+          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 19:08:00 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/eco-da-semana-resultados-nervos-de-aco-nos-juros-e-o-orcamento-do-estado/"
+          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
         },
         {
-          "t": "Audi investe 3.6 mil milhões na sua primeira fábrica nos EUA para SUV premium",
+          "t": "Herdeiro da Ray-Ban rejeita oferta de 3,5 mil milhões",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 10:37:58 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/audi-investe-3-6-mil-milhoes-na-sua-primeira-fabrica-nos-eua-para-suv-premium/"
+          "d": "Sun, 01 Nov 2026 13:46:39 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/herdeiro-da-ray-ban-rejeita-oferta-de-35-mil-milhoes/"
         },
         {
-          "t": "Negócio entre Galp e Moeve em risco de cair",
+          "t": "Sporting anuncia saída do treinador Rui Borges",
           "src": "ECO",
-          "d": "Sun, 25 Oct 2026 20:40:52 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/negocio-entre-galp-e-moeve-em-risco-de-cair/"
-        },
-        {
-          "t": "Zelensky confirma reunião com Rússia e EUA em novembro com vista à paz",
-          "src": "ECO",
-          "d": "Sun, 25 Oct 2026 20:28:21 +0000",
-          "l": "https://eco.sapo.pt/2026/10/25/zelensky-confirma-reuniao-com-russia-e-eua-em-novembro-com-vista-a-paz/"
+          "d": "Sun, 01 Nov 2026 20:59:15 +0000",
+          "l": "https://eco.sapo.pt/2026/11/01/sporting-anuncia-saida-do-treinador-rui-borges/"
         }
       ]
     }
   },
-  "updated": "2026-10-25T21:17:03.663Z"
+  "updated": "2026-11-01T21:26:26.674Z"
 }
