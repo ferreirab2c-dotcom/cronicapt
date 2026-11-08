@@ -1,119 +1,119 @@
 {
   "indices": {
     "psi20": {
-      "price": 9276.13,
-      "chg": 1.0941908709170785
+      "price": 9476.73,
+      "chg": 2.4238959152484902
     },
     "ibex": {
-      "price": 18652.9,
-      "chg": -1.9986024493913186
+      "price": 19369.5,
+      "chg": 2.1716654886115516
     },
     "gspc": {
-      "price": 7580.07,
-      "chg": -0.5720334536601822
+      "price": 7376.86,
+      "chg": -2.680845955248435
     },
     "ixic": {
-      "price": 25436.998,
-      "chg": -1.9970534001866305
+      "price": 24579.424,
+      "chg": -3.3713724102685103
     },
     "stoxx": {
-      "price": 6131.31,
-      "chg": 0.24655711116162798
+      "price": 6170.49,
+      "chg": -0.09018694766567387
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 168.9,
-      "chg": -0.23626698168931226
+      "price": 165.84,
+      "chg": -1.8117229129662535
     },
     "IWDA.AS": {
-      "price": 129.7,
-      "chg": -0.635869148854679
+      "price": 127.33,
+      "chg": -2.016160061562132
     },
     "EQQQ.DE": {
-      "price": 623.4,
-      "chg": -1.8731308043444008
+      "price": 596.1,
+      "chg": -4.379210779595758
     },
     "SUSW.L": {
-      "price": 14.3,
-      "chg": 0.3156787092248329
+      "price": 13.965,
+      "chg": -2.3426573426573483
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 204.64,
-      "chg": -2.995828593098228
+      "price": 186.64,
+      "chg": -8.795934323690384
     },
     "AMD": {
-      "price": 504.8,
-      "chg": -2.320091333036621
+      "price": 449.04,
+      "chg": -11.045958795562596
     },
     "META": {
-      "price": 614.99,
-      "chg": -4.299586069527869
+      "price": 610.15,
+      "chg": -0.7870046667425539
     },
     "AAPL": {
-      "price": 344.63,
-      "chg": -0.891496275846209
+      "price": 342.37,
+      "chg": -0.6557757595101967
     },
     "TSLA": {
-      "price": 399.81,
-      "chg": 7.412283058406312
+      "price": 358.22,
+      "chg": -10.402441159550781
     }
   },
   "commodities": {
     "gold": {
-      "price": 3898.9,
-      "chg": -4.312079713346091
+      "price": 4074.9,
+      "chg": 3.4133590498426556
     },
     "silver": {
-      "price": 49.276,
-      "chg": -9.240601919216097
+      "price": 51.942,
+      "chg": 4.749228628471165
     },
     "wti": {
-      "price": 104.12,
-      "chg": 4.224224224224223
+      "price": 90.83,
+      "chg": -5.474034759080034
     },
     "brent": {
-      "price": 113.43,
-      "chg": -0.39515279241305645
+      "price": 98.32,
+      "chg": -5.096525096525098
     },
     "gas": {
-      "price": 2.898,
-      "chg": 7.452725250278089
+      "price": 2.998,
+      "chg": 3.5578583765112333
     },
     "copper": {
-      "price": 6.482,
-      "chg": -2.1141649048625744
+      "price": 6.2375,
+      "chg": -2.210551070000784
     },
     "coffee": {
-      "price": 287.15,
-      "chg": -2.2468085106383056
+      "price": 280.15,
+      "chg": -1.338263778834306
     },
     "wheat": {
-      "price": 603.5,
-      "chg": -1.1061040557148711
+      "price": 591.25,
+      "chg": -1.41725719049604
     },
     "platina": {
-      "price": 1436,
-      "chg": -6.449511400651466
+      "price": 1536.9,
+      "chg": 7.295448198827143
     }
   },
   "news": {
-    "generated": "2026-11-01T21:26:26.674Z",
+    "generated": "2026-11-08T21:26:18.028Z",
     "buckets": {
       "resumo": [
         {
-          "t": "As três contas de William Nordhaus",
+          "t": "Presidência da COP30 apresenta plano para angariar 1,17 biliões de euros por ano",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
-          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
+          "d": "Sun, 08 Nov 2026 18:26:39 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/presidencia-da-cop30-apresenta-plano-para-angariar-117-bilioes-de-euros-por-ano/"
         },
         {
-          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
+          "t": "ECO da Semana: Corrida ao BCE, inflação e Web Summit",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
+          "d": "Sun, 08 Nov 2026 17:21:38 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/eco-da-semana-corrida-ao-bce-inflacao-e-web-summit/"
         },
         {
           "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -128,54 +128,54 @@
           "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         },
         {
-          "t": "Philip R. Lane: AI adoption in Europe",
+          "t": "Christine Lagarde: Interview with Yomiuri Shimbun",
           "src": "BCE",
-          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
+          "d": "Sat, 07 Nov 2026 15:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
         },
         {
           "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Sun, 01 Nov 2026 14:17:00 +0000",
+          "d": "Sun, 08 Nov 2026 13:33:00 +0000",
           "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "macro": [
         {
-          "t": "As três contas de William Nordhaus",
+          "t": "Presidência da COP30 apresenta plano para angariar 1,17 biliões de euros por ano",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
-          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
+          "d": "Sun, 08 Nov 2026 18:26:39 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/presidencia-da-cop30-apresenta-plano-para-angariar-117-bilioes-de-euros-por-ano/"
         },
         {
-          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
+          "t": "ECO da Semana: Corrida ao BCE, inflação e Web Summit",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
+          "d": "Sun, 08 Nov 2026 17:21:38 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/eco-da-semana-corrida-ao-bce-inflacao-e-web-summit/"
         },
         {
-          "t": "Herdeiro da Ray-Ban rejeita oferta de 3,5 mil milhões",
+          "t": "Mercedes-Benz Classe C: O baby Benz cresceu e ganhou 162 estrelas",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 13:46:39 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/herdeiro-da-ray-ban-rejeita-oferta-de-35-mil-milhoes/"
+          "d": "Sun, 08 Nov 2026 14:45:56 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/mercedes-benz-classe-c-o-baby-benz-cresceu-e-ganhou-162-estrelas/"
         },
         {
-          "t": "Economia Azul puxa corretora de seguros Howden a lançar operação na Madeira",
+          "t": "Apple poupa 2,7 mil milhões em impostos via Singapura",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 13:42:13 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/economia-azul-puxa-corretora-de-seguros-howden-a-lancar-operacao-na-madeira/"
+          "d": "Sun, 08 Nov 2026 09:21:48 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/apple-poupa-27-mil-milhoes-em-impostos-via-singapura/"
         },
         {
-          "t": "Philip R. Lane: AI adoption in Europe",
+          "t": "Christine Lagarde: Interview with Yomiuri Shimbun",
           "src": "BCE",
-          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
+          "d": "Sat, 07 Nov 2026 15:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
         },
         {
-          "t": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+          "t": "ECB publishes consolidated banking data for end-June 2026",
           "src": "BCE",
-          "d": "Fri, 30 Oct 2026 15:00:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html"
+          "d": "Fri, 06 Nov 2026 10:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
         }
       ],
       "stocks": [
@@ -210,10 +210,10 @@
           "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
         },
         {
-          "t": "As três contas de William Nordhaus",
+          "t": "Seguradora Everest vende operação no Chile à AIG",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
-          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
+          "d": "Sun, 08 Nov 2026 15:53:00 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/seguradora-everest-vende-operacao-no-chile-a-aig/"
         }
       ],
       "commodities": [
@@ -242,111 +242,117 @@
           "l": "https://www.wsj.com/articles/natural-gas-firm-diversified-energy-nears-deal-for-permian-basin-player-4c1c5ff5?mod=rss_markets_main"
         },
         {
-          "t": "“Estado não deve ser o garante de tudo e de todos”, avisa João Silva Lopes",
+          "t": "Anthropic compra geradores por 3,4 mil milhões",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 18:31:45 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/estado-nao-deve-ser-o-garante-de-tudo-e-de-todos-avisa-joao-silva-lopes/"
+          "d": "Sun, 08 Nov 2026 17:12:23 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/anthropic-compra-geradores-por-34-mil-milhoes/"
         }
       ],
       "cripto": [
         {
           "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Sun, 01 Nov 2026 14:17:00 +0000",
+          "d": "Sun, 08 Nov 2026 13:33:00 +0000",
           "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "DeepSeek developing AI agent requiring less human input: Report",
+          "t": "Binance France emails announce closure of its users’ accounts on Dec. 31",
           "src": "Cointelegraph",
-          "d": "Sun, 01 Nov 2026 13:40:33 +0000",
-          "l": "https://cointelegraph.com/news/deepseek-developing-ai-agent-requiring-less-human-input-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 08 Nov 2026 12:57:51 +0000",
+          "l": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Binance says phase one of withdrawals opens after $6.3B hack",
+          "t": "Amsterdam protesters break into Microsoft data center construction site: Report",
           "src": "Cointelegraph",
-          "d": "Sun, 01 Nov 2026 09:38:18 +0000",
-          "l": "https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 08 Nov 2026 09:48:48 +0000",
+          "l": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "FBI blames North Korea for record $6.3B Binance hack",
+          "t": "Binance’s  finance chief Kaiser Ng to leave company, report says",
           "src": "Cointelegraph",
-          "d": "Sun, 01 Nov 2026 07:44:38 +0000",
-          "l": "https://cointelegraph.com/news/fbi-blames-north-korea-for-record-63b-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 08 Nov 2026 08:12:56 +0000",
+          "l": "https://cointelegraph.com/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+          "t": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
           "src": "Cointelegraph",
-          "d": "Sat, 31 Oct 2026 15:36:01 +0000",
-          "l": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sat, 07 Nov 2026 14:16:00 +0000",
+          "l": "https://cointelegraph.com/news/ex-fbi-counterintelligence-agent-stole-almost-25m-in-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "realestate": [
         {
-          "t": "Grupo Mais constrói mais de 700 fogos para arrendamento",
+          "t": "Trump partilha animação em que lutadores agridem jornalistas",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 17:38:50 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/grupo-mais-constroi-mais-de-700-fogos-para-arrendamento/"
+          "d": "Sun, 08 Nov 2026 20:37:27 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/trump-partilha-animacao-em-que-lutadores-agridem-jornalistas/"
         },
         {
-          "t": "Galp move ação de 523 mil euros contra ex-gestor e família",
+          "t": "Médis reuniu especialistas na Fundação Champalimaud para debater a longevidade na saúde",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 11:30:25 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/galp-move-acao-de-523-mil-euros-contra-ex-gestor-e-familia/"
+          "d": "Sun, 08 Nov 2026 15:54:52 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/medis-reuniu-especialistas-na-fundacao-champalimaud-para-debater-a-longevidade-na-saude/"
         },
         {
-          "t": "Escola 42 de Santa Clara ‘sobrevoa’ o Porto com drones e robôs humanoides",
+          "t": "José Luís Carneiro cita Cavaco Silva para chamar Governo de “incompetente”",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 08:38:53 +0000",
-          "l": "https://eco.sapo.pt/reportagem/escola-42-de-santa-clara-sobrevoa-o-porto-com-drones-e-robos-humanoides/"
-        },
-        {
-          "t": "Governo disponível para reunir com promotores das acampadas",
-          "src": "ECO",
-          "d": "Sat, 31 Oct 2026 20:38:32 +0000",
-          "l": "https://eco.sapo.pt/2026/10/31/depois-das-pessoas-as-tendas-regressaram-as-pracas/"
+          "d": "Sun, 08 Nov 2026 15:28:01 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/jose-luis-carneiro-cita-cavaco-silva-para-chamar-governo-de-incompetente/"
         }
       ],
       "alternativos": [
         {
-          "t": "Empresas de IA precisam dos media mas com remuneração justa",
+          "t": "ECO da Semana: Corrida ao BCE, inflação e Web Summit",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 10:33:01 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/empresas-de-ia-precisam-dos-media-mas-com-remuneracao-justa/"
+          "d": "Sun, 08 Nov 2026 17:21:38 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/eco-da-semana-corrida-ao-bce-inflacao-e-web-summit/"
         },
         {
-          "t": "Philip R. Lane: AI adoption in Europe",
+          "t": "Apple poupa 2,7 mil milhões em impostos via Singapura",
+          "src": "ECO",
+          "d": "Sun, 08 Nov 2026 09:21:48 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/apple-poupa-27-mil-milhoes-em-impostos-via-singapura/"
+        },
+        {
+          "t": "Christine Lagarde: Interview with Yomiuri Shimbun",
           "src": "BCE",
-          "d": "Fri, 30 Oct 2026 17:10:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html"
+          "d": "Sat, 07 Nov 2026 15:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
         }
       ],
       "geral": [
         {
-          "t": "As três contas de William Nordhaus",
+          "t": "Presidência da COP30 apresenta plano para angariar 1,17 biliões de euros por ano",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 21:22:56 +0000",
-          "l": "https://eco.sapo.pt/opiniao/as-tres-contas-de-william-nordhaus/"
+          "d": "Sun, 08 Nov 2026 18:26:39 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/presidencia-da-cop30-apresenta-plano-para-angariar-117-bilioes-de-euros-por-ano/"
         },
         {
-          "t": "ECO da Semana: ‘Midterms’, contas da EDP e audições do OE2027",
+          "t": "ECO da Semana: Corrida ao BCE, inflação e Web Summit",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 17:27:26 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/eco-da-semana-midterms-contas-da-edp-e-audicoes-do-oe2027/"
+          "d": "Sun, 08 Nov 2026 17:21:38 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/eco-da-semana-corrida-ao-bce-inflacao-e-web-summit/"
         },
         {
-          "t": "Herdeiro da Ray-Ban rejeita oferta de 3,5 mil milhões",
+          "t": "Mercedes-Benz Classe C: O baby Benz cresceu e ganhou 162 estrelas",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 13:46:39 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/herdeiro-da-ray-ban-rejeita-oferta-de-35-mil-milhoes/"
+          "d": "Sun, 08 Nov 2026 14:45:56 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/mercedes-benz-classe-c-o-baby-benz-cresceu-e-ganhou-162-estrelas/"
         },
         {
-          "t": "Sporting anuncia saída do treinador Rui Borges",
+          "t": "Nvidia investiga se Jensen Huang foi alvo de espionagem",
           "src": "ECO",
-          "d": "Sun, 01 Nov 2026 20:59:15 +0000",
-          "l": "https://eco.sapo.pt/2026/11/01/sporting-anuncia-saida-do-treinador-rui-borges/"
+          "d": "Sun, 08 Nov 2026 20:54:18 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/nvidia-investiga-se-jensen-huang-foi-alvo-de-espionagem/"
+        },
+        {
+          "t": "Trump partilha animação em que lutadores agridem jornalistas",
+          "src": "ECO",
+          "d": "Sun, 08 Nov 2026 20:37:27 +0000",
+          "l": "https://eco.sapo.pt/2026/11/08/trump-partilha-animacao-em-que-lutadores-agridem-jornalistas/"
         }
       ]
     }
   },
-  "updated": "2026-11-01T21:26:26.674Z"
+  "updated": "2026-11-08T21:26:18.028Z"
 }
