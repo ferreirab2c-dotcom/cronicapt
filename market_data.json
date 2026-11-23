@@ -1,119 +1,119 @@
 {
   "indices": {
     "psi20": {
-      "price": 9697.64,
-      "chg": 1.4941056297933646
+      "price": 9279.88,
+      "chg": -4.427593181726913
     },
     "ibex": {
-      "price": 20020.1,
-      "chg": 1.4061035836393494
+      "price": 18873.1,
+      "chg": -5.381869591810133
     },
     "gspc": {
-      "price": 7561.67,
-      "chg": 2.505266468388995
+      "price": 6910.39,
+      "chg": -8.61291222706095
     },
     "ixic": {
-      "price": 25136.273,
-      "chg": 2.2654837805433274
+      "price": 22617.732,
+      "chg": -10.019537504967921
     },
     "stoxx": {
-      "price": 6386.86,
-      "chg": 1.5326407490720038
+      "price": 5941.95,
+      "chg": -6.401663424354368
     }
   },
   "etfs": {
     "VWCE.DE": {
-      "price": 169.86,
-      "chg": 2.4240231548480526
+      "price": 159.34,
+      "chg": -6.193335688213828
     },
     "IWDA.AS": {
-      "price": 130.49,
-      "chg": 1.5328353563647672
+      "price": 122.71,
+      "chg": -5.6004308023694245
     },
     "EQQQ.DE": {
-      "price": 615.5,
-      "chg": 3.2544875020969597
+      "price": 571.2,
+      "chg": -7.197400487408603
     },
     "SUSW.L": {
-      "price": 14.17,
-      "chg": 1.4679556032939496
+      "price": 13.36,
+      "chg": -5.71630204657728
     }
   },
   "stocks": {
     "NVDA": {
-      "price": 162.85,
-      "chg": -12.746463780540074
+      "price": 125.53,
+      "chg": -22.91679459625422
     },
     "AMD": {
-      "price": 534.06,
-      "chg": 18.933725280598594
+      "price": 424.39,
+      "chg": -20.535145863760622
     },
     "META": {
-      "price": 641.69,
-      "chg": 5.169220683438511
+      "price": 560.84,
+      "chg": -12.599541834842373
     },
     "AAPL": {
-      "price": 356.27,
-      "chg": 4.059935157870133
+      "price": 342.56,
+      "chg": -3.8482050130518934
     },
     "TSLA": {
-      "price": 390.22,
-      "chg": 8.933057897381497
+      "price": 345.82,
+      "chg": -11.378196914561025
     }
   },
   "commodities": {
     "gold": {
-      "price": 3886.3,
-      "chg": -3.5705424048434233
+      "price": 3607.7,
+      "chg": -6.637855183479116
     },
     "silver": {
-      "price": 49.121,
-      "chg": -3.8746795561730627
+      "price": 42.23,
+      "chg": -10.696159702250043
     },
     "wti": {
-      "price": 88.56,
-      "chg": 2.9288702928870243
+      "price": 83.33,
+      "chg": -3.115916753865837
     },
     "brent": {
-      "price": 95.84,
-      "chg": 4.754617991037281
+      "price": 89.82,
+      "chg": -3.564526519218389
     },
     "gas": {
-      "price": 3.23,
-      "chg": -2.002427184466015
+      "price": 3.625,
+      "chg": 12.998753117206977
     },
     "copper": {
-      "price": 6.0905,
-      "chg": -2.074121713964152
+      "price": 5.56,
+      "chg": -6.961178045515401
     },
     "coffee": {
-      "price": 279.25,
-      "chg": 2.8924097273397287
+      "price": 273.35,
+      "chg": -4.623168178646196
     },
     "wheat": {
-      "price": 593.25,
-      "chg": 0.08435259384226065
+      "price": 594.5,
+      "chg": -0.125997480050399
     },
     "platina": {
-      "price": 1489.7,
-      "chg": -3.1970888296835427
+      "price": 1304.5,
+      "chg": -8.533165053989626
     }
   },
   "news": {
-    "generated": "2026-11-15T21:28:11.153Z",
+    "generated": "2026-11-23T01:23:25.855Z",
     "buckets": {
       "resumo": [
         {
-          "t": "Ventura viabilizará todas as propostas “cabíveis” para menos custos com habitação e combustíveis",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 19:45:44 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/ventura-viabilizara-todas-as-propostas-cabiveis-para-menos-custos-com-habitacao-e-combustiveis/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         },
         {
-          "t": "Checos contra plano do Governo de financiamento dos meios de comunicação públicos",
+          "t": "Portugal lamenta falta de ambição climática no texto final da COP31",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 18:03:32 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/checos-contra-plano-do-governo-de-financiamento-dos-meios-de-comunicacao-publicos/"
+          "d": "Sun, 22 Nov 2026 18:03:28 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/portugal-lamenta-falta-de-ambicao-climatica-no-texto-final-da-cop31/"
         },
         {
           "t": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -128,54 +128,54 @@
           "l": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main"
         },
         {
-          "t": "Isabel Schnabel: Made in Europe",
+          "t": "Christine Lagarde: Acting in time",
           "src": "BCE",
-          "d": "Fri, 13 Nov 2026 08:20:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+          "d": "Fri, 20 Nov 2026 09:30:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
         },
         {
-          "t": "Here’s what happened in crypto today",
+          "t": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
           "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 11:18:48 +0000",
-          "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 22 Nov 2026 22:47:09 +0000",
+          "l": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "macro": [
         {
-          "t": "Ventura viabilizará todas as propostas “cabíveis” para menos custos com habitação e combustíveis",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 19:45:44 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/ventura-viabilizara-todas-as-propostas-cabiveis-para-menos-custos-com-habitacao-e-combustiveis/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         },
         {
-          "t": "Checos contra plano do Governo de financiamento dos meios de comunicação públicos",
+          "t": "Portugal lamenta falta de ambição climática no texto final da COP31",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 18:03:32 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/checos-contra-plano-do-governo-de-financiamento-dos-meios-de-comunicacao-publicos/"
+          "d": "Sun, 22 Nov 2026 18:03:28 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/portugal-lamenta-falta-de-ambicao-climatica-no-texto-final-da-cop31/"
         },
         {
-          "t": "Espanha é líder europeu do consumo de cerveja sem álcool",
+          "t": "ECO da Semana: OE2027, proposta de Costa para UE e a Black Friday",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 14:16:55 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/espanha-e-lider-europeu-do-consumo-de-cerveja-sem-alcool/"
+          "d": "Sun, 22 Nov 2026 17:07:06 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/eco-da-semana-oe2027-proposta-de-costa-para-ue-e-a-black-friday/"
         },
         {
-          "t": "Revolut afasta-se de compra do Banco CTT",
+          "t": "PS e Chega aprovam fundo de catástrofes, PSD e CDS votaram contra",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 10:38:58 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/revolut-afasta-se-de-compra-do-banco-ctt/"
+          "d": "Sun, 22 Nov 2026 14:21:02 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/ps-quer-acelerar-fundo-catastrofico-psd-e-cds-votaram-contra/"
         },
         {
-          "t": "Isabel Schnabel: Made in Europe",
+          "t": "Christine Lagarde: Acting in time",
           "src": "BCE",
-          "d": "Fri, 13 Nov 2026 08:20:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+          "d": "Fri, 20 Nov 2026 09:30:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
         },
         {
-          "t": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+          "t": "Boris Vujčić: Financial Stability Review - November 2026",
           "src": "BCE",
-          "d": "Tue, 10 Nov 2026 17:45:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
+          "d": "Wed, 18 Nov 2026 10:00:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf"
         }
       ],
       "stocks": [
@@ -210,10 +210,10 @@
           "l": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main"
         },
         {
-          "t": "Checos contra plano do Governo de financiamento dos meios de comunicação públicos",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 18:03:32 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/checos-contra-plano-do-governo-de-financiamento-dos-meios-de-comunicacao-publicos/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         }
       ],
       "commodities": [
@@ -244,97 +244,115 @@
       ],
       "cripto": [
         {
-          "t": "Enterprise blockchain is going to come back from the dead",
+          "t": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
           "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 14:30:00 +0000",
-          "l": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Mon, 23 Nov 2026 00:53:49 +0000",
+          "l": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+          "src": "Cointelegraph",
+          "d": "Sun, 22 Nov 2026 22:47:09 +0000",
+          "l": "https://cointelegraph.com/magazine/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        },
+        {
+          "t": "The future of onchain FX could start with users, not institutional liquidity",
+          "src": "Cointelegraph",
+          "d": "Sun, 22 Nov 2026 14:30:00 +0000",
+          "l": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
           "t": "Here’s what happened in crypto today",
           "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 11:18:48 +0000",
+          "d": "Sun, 22 Nov 2026 11:25:27 +0000",
           "l": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         },
         {
-          "t": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+          "t": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
           "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 10:23:17 +0000",
-          "l": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "t": "Coinone warns of phishing, identity theft after customer data breach",
-          "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 08:07:58 +0000",
-          "l": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-        },
-        {
-          "t": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
-          "src": "Cointelegraph",
-          "d": "Sun, 15 Nov 2026 06:27:26 +0000",
-          "l": "https://cointelegraph.com/news/rwa-protocol-stusdt-winds-down-three-years-after-23b-tvl-peak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+          "d": "Sun, 22 Nov 2026 09:33:06 +0000",
+          "l": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
         }
       ],
       "realestate": [
         {
-          "t": "Ventura viabilizará todas as propostas “cabíveis” para menos custos com habitação e combustíveis",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 19:45:44 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/ventura-viabilizara-todas-as-propostas-cabiveis-para-menos-custos-com-habitacao-e-combustiveis/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         },
         {
-          "t": "ECO da Semana: Contas da Nvidia, IPO da Anthropic e reunião Trump-Xi-Putin",
+          "t": "APS promove curso de especialização em peritagem de catástrofes naturais",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 17:53:09 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/eco-da-semana-contas-da-nvidia-ipo-da-anthropic-e-reuniao-trump-xi-putin/"
+          "d": "Sun, 22 Nov 2026 16:44:12 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/aps-promove-curso-de-especializacao-em-peritagem-de-catastrofes-naturais/"
         },
         {
-          "t": "APS com formação sobre seguro de acidentes de trabalho desportivo",
+          "t": "PSD acusa PS e Chega de formarem uma “gerinsonsa” e aumentarem impostos sobre rendas",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 15:14:20 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/aps-com-formacao-sobre-seguro-de-acidentes-de-trabalho-desportivo/"
+          "d": "Sun, 22 Nov 2026 13:00:12 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/psd-acusa-ps-e-chega-de-formarem-uma-gerinsonsa-e-aumentarem-impostos-sobre-rendas/"
         },
         {
-          "t": "Mil juízes e outros profissionais assinalam 50 anos do Conselho da Magistratura",
+          "t": "BW vai explorar porto da Barra do Dande durante 25 anos",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 09:25:27 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/mil-juizes-e-outros-profissionais-assinalam-50-anos-do-conselho-da-magistratura/"
+          "d": "Sun, 22 Nov 2026 12:48:16 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/bw-vai-explorar-porto-da-barra-do-dande-durante-25-anos/"
         }
       ],
       "alternativos": [
         {
-          "t": "UGT quer revisitar acordo de Concertação Social",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sat, 14 Nov 2026 19:27:55 +0000",
-          "l": "https://eco.sapo.pt/2026/11/14/ugt-quer-revisitar-acordo-de-concertacao-social/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         },
         {
-          "t": "Isabel Schnabel: Made in Europe",
+          "t": "IVA zero, responsabilidade zero?",
+          "src": "ECO",
+          "d": "Sun, 22 Nov 2026 13:18:27 +0000",
+          "l": "https://eco.sapo.pt/opiniao/iva-zero-responsabilidade-zero/"
+        },
+        {
+          "t": "PSD acusa PS e Chega de formarem uma “gerinsonsa” e aumentarem impostos sobre rendas",
+          "src": "ECO",
+          "d": "Sun, 22 Nov 2026 13:00:12 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/psd-acusa-ps-e-chega-de-formarem-uma-gerinsonsa-e-aumentarem-impostos-sobre-rendas/"
+        },
+        {
+          "t": "Christine Lagarde: Acting in time",
           "src": "BCE",
-          "d": "Fri, 13 Nov 2026 08:20:00 +0100",
-          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html"
+          "d": "Fri, 20 Nov 2026 09:30:00 +0100",
+          "l": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
         }
       ],
       "geral": [
         {
-          "t": "Ventura viabilizará todas as propostas “cabíveis” para menos custos com habitação e combustíveis",
+          "t": "Carneiro recusa “jogos políticos” e tenta segurar senhorios",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 19:45:44 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/ventura-viabilizara-todas-as-propostas-cabiveis-para-menos-custos-com-habitacao-e-combustiveis/"
+          "d": "Sun, 22 Nov 2026 20:21:17 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/carneiro-recusa-jogos-politicos-e-tenta-segurar-senhorios/"
         },
         {
-          "t": "Checos contra plano do Governo de financiamento dos meios de comunicação públicos",
+          "t": "Portugal lamenta falta de ambição climática no texto final da COP31",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 18:03:32 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/checos-contra-plano-do-governo-de-financiamento-dos-meios-de-comunicacao-publicos/"
+          "d": "Sun, 22 Nov 2026 18:03:28 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/portugal-lamenta-falta-de-ambicao-climatica-no-texto-final-da-cop31/"
         },
         {
-          "t": "Espanha é líder europeu do consumo de cerveja sem álcool",
+          "t": "ECO da Semana: OE2027, proposta de Costa para UE e a Black Friday",
           "src": "ECO",
-          "d": "Sun, 15 Nov 2026 14:16:55 +0000",
-          "l": "https://eco.sapo.pt/2026/11/15/espanha-e-lider-europeu-do-consumo-de-cerveja-sem-alcool/"
+          "d": "Sun, 22 Nov 2026 17:07:06 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/eco-da-semana-oe2027-proposta-de-costa-para-ue-e-a-black-friday/"
+        },
+        {
+          "t": "COP31, os motivos para um fracasso",
+          "src": "ECO",
+          "d": "Sun, 22 Nov 2026 20:31:46 +0000",
+          "l": "https://eco.sapo.pt/2026/11/22/cop31-os-motivos-para-um-fracasso/"
         }
       ]
     }
   },
-  "updated": "2026-11-15T21:28:11.153Z"
+  "updated": "2026-11-23T01:23:25.855Z"
 }
